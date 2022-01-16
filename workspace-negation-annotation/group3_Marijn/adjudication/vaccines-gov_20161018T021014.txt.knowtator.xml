@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<annotations textSource="vaccines-gov_20161018T021014.txt">
+    <annotation>
+        <mention id="EHOST_Instance_565" />
+        <annotator id="eHOST_2010">ADJUDICATION</annotator>
+        <span start="741" end="746" />
+        <spannedText>never</spannedText>
+        <creationDate>Tue Jan 11 21:59:02 CET 2022</creationDate>
+    </annotation>
+    <classMention id="EHOST_Instance_565">
+        <mentionClass id="NegCue">never</mentionClass>
+    </classMention>
+    <annotation>
+        <mention id="EHOST_Instance_566" />
+        <annotator id="eHOST_2010">ADJUDICATION</annotator>
+        <span start="766" end="771" />
+        <spannedText>never</spannedText>
+        <creationDate>Tue Jan 11 21:59:05 CET 2022</creationDate>
+    </annotation>
+    <classMention id="EHOST_Instance_566">
+        <mentionClass id="NegCue">never</mentionClass>
+    </classMention>
+    <annotation>
+        <mention id="EHOST_Instance_567" />
+        <annotator id="eHOST_2010">ADJUDICATION</annotator>
+        <span start="865" end="868" />
+        <spannedText>not</spannedText>
+        <creationDate>Tue Jan 11 21:59:09 CET 2022</creationDate>
+    </annotation>
+    <classMention id="EHOST_Instance_567">
+        <mentionClass id="NegCue">not</mentionClass>
+    </classMention>
+    <annotation>
+        <mention id="EHOST_Instance_568" />
+        <annotator id="eHOST_2010">ADJUDICATION</annotator>
+        <span start="1003" end="1006" />
+        <spannedText>not</spannedText>
+        <creationDate>Tue Jan 11 21:59:23 CET 2022</creationDate>
+    </annotation>
+    <classMention id="EHOST_Instance_568">
+        <mentionClass id="NegCue">not</mentionClass>
+    </classMention>
+    <annotation>
+        <mention id="EHOST_Instance_569" />
+        <annotator id="eHOST_2010">ADJUDICATION</annotator>
+        <span start="1246" end="1248" />
+        <spannedText>no</spannedText>
+        <creationDate>Tue Jan 11 21:59:36 CET 2022</creationDate>
+    </annotation>
+    <classMention id="EHOST_Instance_569">
+        <mentionClass id="NegCue">no</mentionClass>
+    </classMention>
+    <annotation>
+        <mention id="EHOST_Instance_572" />
+        <annotator id="eHOST_2010">ADJUDICATION</annotator>
+        <span start="2041" end="2044" />
+        <spannedText>not</spannedText>
+        <creationDate>Tue Jan 11 22:00:16 CET 2022</creationDate>
+    </annotation>
+    <classMention id="EHOST_Instance_572">
+        <mentionClass id="NegCue">not</mentionClass>
+    </classMention>
+    <annotation>
+        <mention id="EHOST_Instance_576" />
+        <annotator id="eHOST_2010">ADJUDICATION</annotator>
+        <span start="2946" end="2949" />
+        <spannedText>not</spannedText>
+        <creationDate>Tue Jan 11 22:01:45 CET 2022</creationDate>
+    </annotation>
+    <classMention id="EHOST_Instance_576">
+        <mentionClass id="NegCue">not</mentionClass>
+    </classMention>
+</annotations>
+

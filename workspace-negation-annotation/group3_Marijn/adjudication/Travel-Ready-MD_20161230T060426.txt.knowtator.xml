@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<annotations textSource="Travel-Ready-MD_20161230T060426.txt">
+    <annotation>
+        <mention id="EHOST_Instance_156" />
+        <annotator id="eHOST_2010">ADJUDICATION</annotator>
+        <span start="498" end="501" />
+        <spannedText>not</spannedText>
+        <creationDate>Tue Jan 11 21:24:03 CET 2022</creationDate>
+    </annotation>
+    <classMention id="EHOST_Instance_156">
+        <mentionClass id="NegCue">not</mentionClass>
+    </classMention>
+    <annotation>
+        <mention id="EHOST_Instance_161" />
+        <annotator id="eHOST_2010">ADJUDICATION</annotator>
+        <span start="4255" end="4258" />
+        <spannedText>n’t</spannedText>
+        <creationDate>Tue Jan 11 21:30:59 CET 2022</creationDate>
+    </annotation>
+    <classMention id="EHOST_Instance_161">
+        <mentionClass id="NegCue">n’t</mentionClass>
+    </classMention>
+</annotations>
+

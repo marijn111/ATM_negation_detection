@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<annotations textSource="ThinkProgress_20160723T110700.txt">
+    <annotation>
+        <mention id="EHOST_Instance_207" />
+        <annotator id="eHOST_2010">ADJUDICATION</annotator>
+        <span start="964" end="967" />
+        <spannedText>not</spannedText>
+        <creationDate>Tue Jan 11 21:32:04 CET 2022</creationDate>
+    </annotation>
+    <classMention id="EHOST_Instance_207">
+        <mentionClass id="NegCue">not</mentionClass>
+    </classMention>
+    <annotation>
+        <mention id="EHOST_Instance_208" />
+        <annotator id="eHOST_2010">ADJUDICATION</annotator>
+        <span start="1417" end="1420" />
+        <spannedText>not</spannedText>
+        <creationDate>Tue Jan 11 21:32:36 CET 2022</creationDate>
+    </annotation>
+    <classMention id="EHOST_Instance_208">
+        <mentionClass id="NegCue">not</mentionClass>
+    </classMention>
+    <annotation>
+        <mention id="EHOST_Instance_210" />
+        <annotator id="eHOST_2010">ADJUDICATION</annotator>
+        <span start="3157" end="3159" />
+        <spannedText>un</spannedText>
+        <creationDate>Tue Jan 11 21:34:44 CET 2022</creationDate>
+    </annotation>
+    <classMention id="EHOST_Instance_210">
+        <mentionClass id="NegCue">un</mentionClass>
+    </classMention>
+</annotations>
+

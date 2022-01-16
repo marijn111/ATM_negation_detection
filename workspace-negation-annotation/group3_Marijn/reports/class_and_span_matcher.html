@@ -1,0 +1,59 @@
+<html>
+<head><title>Class and span matcher</title></head>
+<body style="margin: 2 5 5 5; font-family: Candara;">
+<div><a href="index.html"><b> [Back to the index.html]</b></a><br></div>
+<h1>Class and span matcher</h1>
+Annotations match if they have exact same spans, with same classes.
+<hr>
+<p>
+<h2>2-way IAA Results</h2>
+IAA calculated on 24 documents.
+<div>all annotations = matches + non-matches
+<br> IAA = matches / all annotations
+</div>
+<p>For annotations between Annotator[Marijn] and Annotator[Younes Seghrouchni]:</p>
+<table border=1><tr><td><b>Type</b></td><td><b>IAA</b></td>
+<td><b>matches</b></td>
+<td><b>non-matches</b></td>
+</tr>
+<tr><td><b>All selected classes</b></td><td>60.4%</td><td>128</td><td>84</td></tr>
+<tr><td><b>NegCue</b></td><td>60.4%</td><td>128</td><td>84</td></tr>
+</table>
+<p>For annotations between Annotator[Marijn] and Annotator[Demian]:</p>
+<table border=1><tr><td><b>Type</b></td><td><b>IAA</b></td>
+<td><b>matches</b></td>
+<td><b>non-matches</b></td>
+</tr>
+<tr><td><b>All selected classes</b></td><td>43.8%</td><td>74</td><td>95</td></tr>
+<tr><td><b>NegCue</b></td><td>43.8%</td><td>74</td><td>95</td></tr>
+</table>
+<p>For annotations between Annotator[Younes Seghrouchni] and Annotator[Demian]:</p>
+<table border=1><tr><td><b>Type</b></td><td><b>IAA</b></td>
+<td><b>matches</b></td>
+<td><b>non-matches</b></td>
+</tr>
+<tr><td><b>All selected classes</b></td><td>61.4%</td><td>94</td><td>59</td></tr>
+<tr><td><b>NegCue</b></td><td>61.4%</td><td>94</td><td>59</td></tr>
+</table>
+<br>
+<p>
+<h2>3-way IAA Results ( 3 Annotators)</h2>
+<p>For annotations among all Annotators in current dataset:</p>
+<table border=1><tr><td><b>Type</b></td><td><b>IAA</b></td>
+<td><b>matches</b></td>
+<td><b>non-matches</b></td>
+</tr>
+<tr><td><b>All selected classes</b></td><td>39.3%</td><td>105</td><td>162</td></tr>
+<tr><td><b>NegCue</b></td><td>39.3%</td><td>105</td><td>162</td></tr>
+</table>
+<br><h2>Pair-wise agreement</h2>
+<table border=1><tr><td><b>Gold standard set</b></td><td><b>compared set</b></td><td><b>true positives</b></td><td><b>false positives</b></td><td><b>false negatives</b></td><td><b>recall</b></td><td><b>precision</b></td><td><b>F-measure</b></td></tr>
+<tr><td>Marijn</td><td>Younes Seghrouchni</td><td>64</td><td>34</td><td>50</td><td>56.1%</td><td>65.3%</td><td>60.4%</td></tr>
+<tr><td>Marijn</td><td>Demian</td><td>37</td><td>18</td><td>77</td><td>32.5%</td><td>67.3%</td><td>43.8%</td></tr>
+<tr><td>Younes Seghrouchni</td><td>Marijn</td><td>64</td><td>50</td><td>34</td><td>65.3%</td><td>56.1%</td><td>60.4%</td></tr>
+<tr><td>Younes Seghrouchni</td><td>Demian</td><td>47</td><td>8</td><td>51</td><td>48.0%</td><td>85.5%</td><td>61.4%</td></tr>
+<tr><td>Demian</td><td>Marijn</td><td>37</td><td>77</td><td>18</td><td>67.3%</td><td>32.5%</td><td>43.8%</td></tr>
+<tr><td>Demian</td><td>Younes Seghrouchni</td><td>47</td><td>51</td><td>8</td><td>85.5%</td><td>48.0%</td><td>61.4%</td></tr>
+</table>
+Precision and recall are given equal weight for the F-score.
+<div><a href="index.html"><b><br>[Back to the index.html]</b></a><br></div>

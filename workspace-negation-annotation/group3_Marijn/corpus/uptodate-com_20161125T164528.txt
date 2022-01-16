@@ -1,0 +1,164 @@
+Pediatric vaccine programs in the United States have been extremely successful against a range of contagious diseases, including measles, rubella, tetanus, diphtheria, and poliomyelitis; fewer than 500 children die in the United States each year of vaccine-preventable diseases.
+However, healthy adults also require regular vaccines. As many as 50,000 to 70,000 adults die annually of pneumonia and influenza in the United States, which could be greatly reduced with vaccinations. Receiving appropriate immunizations plays a crucial role in protecting health throughout a person’s lifetime.
+The following is a general discussion of vaccines currently recommended for healthy adults. Separate articles discuss vaccines for international travelers and children. (See "Patient education: Vaccines for travel (The Basics)" and "Patient education: Why does my child need vaccines? (Beyond the Basics)" and "Patient education: Vaccines for infants and children age 0 to 6 years (Beyond the Basics)".)
+The immune system protects the body against illness and infection. When a person's immune system recognizes a foreign organism (bacterium, virus), it responds by creating proteins called antibodies. Antibodies fight the infection and help the person to recover.
+Antibodies also work to prevent a person from becoming ill in the future. The next time a person is exposed to the organism, the immune system recognizes it and rapidly produces the antibodies required to destroy the organism. This response protects the individual from developing the disease, ideally for life. For example, a person who had chickenpox as a child is unlikely to develop it again, even if he or she is in close contact with a person who is infected.
+Vaccines work by stimulating the immune system to produce antibodies. However, unlike bacteria and viruses, vaccines do not cause the person to become ill in order to develop these antibodies. There are two main types of immunizations: active and passive.
+Active vaccines  — Active vaccines use a weakened form of the harmful bacteria or virus or components of the bacteria or virus to stimulate the immune system. Some active vaccines are called live vaccines because they are made from a weakened form of the bacterium or virus.
+Some bacteria (eg, diphtheria, tetanus) cause illness because they produce a harmful substance in the body called toxins. Vaccines that help the immune system protect the body from toxins are called toxoids. Toxoids are made from weakened forms of the toxins of bacteria.
+Passive vaccines  — Passive vaccines provide temporary immunity with antibodies obtained from a large pool of donors; this preparation is known as immune serum globulin. Passive vaccines offer short-term protection to children or adults who have been exposed to a specific organism.
+Vaccines protect children and adults  — Many people are concerned about the risks of vaccines. However, vaccines have a long record of being a safe and effective way of preventing disease. In most cases, the benefits of vaccinating are much greater than the potential risks. Diseases such as diphtheria and measles are uncommon in developed countries such as the United States. However, these illnesses are still common in developing countries.
+It is easy for illness to spread to children or adults who are not vaccinated because immigrants and visitors can travel from affected areas. Vaccines help to reduce a child's, family's, and even an entire community's chances of becoming ill by decreasing the number of people who become sick and transmit the infection to other people. This process is sometimes referred to as "herd immunity."
+An example of a successful vaccine program is smallpox. Before a vaccine was available, smallpox killed millions of people every year. As a result of an intensive vaccination program, smallpox has been completely eliminated throughout the world.
+How are vaccines given?  — Most immunizations are given to adults in the form of an injection into the upper arm. Some vaccines are also given in other ways, such as by mouth or as a nasal spray.
+Most vaccines are safe and cause few if any serious side effects. Very rarely, serious side effects do occur. People who are vaccinated and then develop symptoms that could be related to the vaccine should contact their healthcare provider. There is a national Vaccine Adverse Events Reporting System (VAERS, http://vaers.hhs.gov/index, telephone number 1-800-822-7967), which can be consulted if necessary. Occasionally, recommendations for a vaccine are changed in response to this type of report.
+Mild side effects  — With many vaccines and toxoids, side effects can include:
+●A mild fever
+●A reddish, tender area at the site of injection
+●Occasionally, a "serum sickness-like" reaction that may be characterized by fever, skin rash, swollen lymph nodes, joint pain, and/or other symptoms
+Severe side effects  — Severe side effects of vaccines are rare but may include a severe neurologic reaction (eg, seizures) or severe allergic reactions (eg, anaphylaxis). Allergic reactions usually occur within minutes to hours of receiving the vaccine. If this occurs in the healthcare provider's office, emergency care can be given immediately. If a severe reaction occurs later, the person or a family member should call emergency medical services, available in most areas of the United States by calling 911.
+Reasons to avoid vaccination  — A particular vaccine may not be recommended for people with a serious allergic reaction to the following:
+●Eggs or egg protein, since some vaccines are prepared with embryonic chicken eggs or cultures (eg, influenza vaccine, yellow fever vaccine). A mild allergy to eggs does not mean that the vaccine should be avoided. There is a type of influenza vaccine (recombinant hemagglutinin influenza vaccine) that is safe for people with a serious allergic reaction to eggs because the vaccine is not prepared using eggs.
+●The antibiotic medications neomycin or streptomycin (some vaccines contains trace amounts of neomycin)
+●Gelatin
+●A specific vaccine
+In addition, live virus vaccines, including the measles, mumps, and rubella vaccine and the varicella vaccine are generally not recommended for the following groups:
+●Those with a weakened immune system, since there is an increased risk of infection as a result of the vaccination
+●Patients who have recently received a blood transfusion or immune serum globulin, which can delay the normal response to active vaccination. In this case, the vaccination should be delayed for one month.
+●Women who are pregnant or considering becoming pregnant within the next 28 days, due to the potential risk of the vaccine to the developing fetus
+In some cases, there is an alternative vaccine that is not live that can be used. For example, the injectable form of the influenza vaccine is not live and is recommended for those who cannot receive live vaccines, such as pregnant women and those with a weakened immune system.
+Conditions that do not affect vaccination  — The following conditions do not require that a person delay or avoid vaccination:
+●Current or recent mild illness, with or without low grade fever
+●Current or recent antibiotic therapy
+●Previous mild to moderate tenderness, redness, or swelling at the site of injection or fever less than 104.9ºF (40.5ºC) after any previous vaccination
+●A personal history of allergies, except those listed above
+●A family history of adverse reactions to vaccines
+Childhood vaccinations  — Ideally, children should begin receiving vaccinations at birth. This allows the child to be protected from common childhood illnesses as well as illnesses that can develop during adulthood. Many diseases prevented by vaccines are more serious in young children.
+In addition, most infants visit a healthcare provider frequently during the first year, which improves the chances of completing most vaccines that require multiple doses. In most states, some vaccines are required before the child can attend school; these requirements vary from one state to another.
+The recommended vaccine schedules for children and adolescents in the United States are available through the Centers for Disease Control and Prevention (CDC) website (figure 1A-B).
+Adult vaccines  — In the United States, immunizations are recommended for healthy adults based upon policies developed by expert groups (figure 2). Additional information concerning vaccines can be obtained from the CDC Hotline (at 1-800-232-2522) or downloaded from the CDC website.
+Recommendations also apply to people with an increased risk of developing certain infections (and/or transmitting them to at-risk individuals), including the following:
+●Residents of long-term care facilities (including nursing homes), young adults residing in college dormitories, household members living with at-risk individuals, or inmates of correctional facilities
+●Healthcare or public safety workers, laboratory staff, daycare center workers, and food handlers
+●Travelers to particular countries (see "Patient education: Vaccines for travel (The Basics)")
+●Men who have sex with men, people with multiple sex partners, and those who use injectable street drugs
+Pneumococcal  — Pneumonia is a serious lung infection that can be fatal, especially in older adults, individuals with underlying medical conditions, and those with a weakened immune system. Pneumonia is usually caused by bacteria; the most common is Streptococcus pneumoniae, or pneumococcus. Pneumococcal pneumonia can develop as a complication of a respiratory tract viral infection such as influenza. (See "Patient education: Pneumonia in adults (Beyond the Basics)".)
+The pneumococcal vaccines protect against many of the types of pneumococci. More detailed information about the pneumococcal vaccines is available separately. (See "Patient education: Pneumonia prevention in adults (Beyond the Basics)".)
+Influenza  — Commonly known as flu, influenza is a highly contagious viral infection that occurs in outbreaks worldwide, usually in the winter season in the United States and other nontropical regions. Serious complications can develop in people with influenza, including bacterial pneumonia. (See "Patient education: Influenza symptoms and treatment (Beyond the Basics)".)
+A vaccine to prevent influenza is recommended for nearly all adults. These vaccines are discussed separately. (See "Patient education: Influenza prevention (Beyond the Basics)".)
+Tetanus, diphtheria, pertussis 
+●Tetanus is a wound infection caused by a bacterial toxin. The bacterium resides in soil and the intestinal tracts of certain mammals and enters the body through a wound; it then multiplies and produces toxins that act on nerves controlling muscle activity.
+●Diphtheria is a sudden illness caused by a bacterium that is usually transmitted via droplets coughed or sneezed into the air. The bacteria typically multiply in the throat and may release a toxin into the bloodstream, which can lead to damage of the brain and heart.
+●Pertussis, or whooping cough, is an upper respiratory illness caused by a bacterium called Bordetella pertussis. The bacterium is spread easily and can cause serious illness, especially in infants and people with a weakened immune system.
+Tetanus and diphtheria are rare in the United States because most infants are given a series of five vaccinations, starting at two months of age. Some people have an increased risk of developing tetanus or diphtheria, including people who were not vaccinated during childhood, older adults (due to a decline in protection from the vaccine over time), people who live in rural areas, injection drug users, and immigrants. (See "Patient education: Vaccines for infants and children age 0 to 6 years (Beyond the Basics)".)
+Pertussis has become increasingly common in adults, despite the fact that most people were immunized during childhood. This is due to fading immunity to pertussis over time.
+A tetanus-diphtheria (Td) booster vaccine is recommended for all adults every 10 years for life. Adults under age 65 who have not had the combined tetanus-diphtheria-pertussis vaccine (Tdap) should get one dose of Tdap instead of their next regular tetanus booster (Td), followed by the Td booster every 10 years. Adults aged 65 years or older who are healthcare workers or who have close contact with infants under one year of age (eg, grandparents, childcare providers) should get a single dose of Tdap as soon as they can, regardless of how long ago they had a tetanus booster. Adults over age 65 who do not have close contact with infants can also receive a single dose of Tdap. If the booster dose is overdue and there is concern that the person was exposed to tetanus, tetanus immune globulin is given along with the Td or Tdap. The immune globulin provides temporary protection from the toxin. A series of three tetanus-diphtheria vaccines, one of which includes acellular pertussis (Tdap), is recommended for adults who did not receive any of the childhood diphtheria-tetanus vaccines. (See 'Passive vaccines' above.)
+Measles-mumps-rubella (MMR)  — Measles, mumps, and rubella are transmitted by infected patients who release airborne droplets while coughing or sneezing.
+●Measles is a highly contagious viral illness of the respiratory tract that primarily affects children; it causes a distinctive rash, fever, and cough and may result in complications, including infection of the middle ear and lungs.
+●Mumps, an acute, usually mild viral infection of childhood, is primarily characterized by painful swelling of the salivary glands; however, complications may sometimes result, including inflammation of the protective membranes of the brain (meningitis) and, in males affected after puberty, swelling and tenderness of one or both testes (orchitis).
+●Rubella, also known as German measles, is typically a mild viral infection characterized by fever, swelling of the lymph nodes, and rash; however, it can cause severe birth defects (congenital rubella syndrome) if the mother is affected during early pregnancy.
+The incidence of these diseases fell dramatically in the United States since the live virus vaccine was developed. Despite the rarity of the diseases in the United States, continued protection of children as well as adults is recommended for a number of reasons:
+●Cases of measles brought from other countries have the potential to be a major source of future exposure unless the population remains immune. An unusually high number of imported cases of measles occurred in the first five months of 2011 and resulted in nine outbreaks of secondary cases that occurred in the United States.
+●Adults with measles have an increased risk of death. Measles during pregnancy can cause early labor and miscarriage.
+●The most serious complications of mumps occur more frequently in adults than children, including orchitis (leading to sterility in men), neurologic complications, and risk of fetal death if the infection is acquired in early pregnancy.
+●Vaccination can help to eliminate the most important consequences of rubella, including miscarriage, fetal death, and congenital rubella syndrome.
+A series of MMR vaccines is given to most infants and children in the United States. People who were born before 1957 in the United States are usually considered to be immune to measles and mumps. If you are not sure that you had measles, mumps and rubella or whether you were vaccinated against these diseases, a blood test can verify immunity. If you are not immune to measles or mumps or rubella (ie, to one or more of the three diseases), the MMR vaccine is recommended. Healthcare workers born before 1957 whose blood test does not show measles or mumps immunity or who do not have laboratory confirmation of having had disease, vaccination with two doses of MMR should be considered. During outbreaks of measles or mumps, such individuals should receive two doses of MMR.
+There are no adverse consequences of receiving MMR if you are already immune to one or more of the three diseases. High-risk groups include women who could become pregnant, college students, healthcare workers, and international travelers. If you are in one of these high-risk groups and are not immune to measles, mumps, or rubella, you should receive two doses of the MMR vaccine. If you are not in one of these high-risk groups and are not immune to measles, mumps, or rubella, you should receive one dose of MMR. However, MMR should not be administered to pregnant women or women considering pregnancy in the next 28 days.
+Varicella (chickenpox)  — Chickenpox is a highly contagious viral illness caused by infection with the varicella-zoster virus (VZV). The disease causes fever, sore throat, and a distinctive, itchy, blistering rash that later forms scabs. The virus is transmitted by airborne droplets or direct contact with the skin rash. Chickenpox is discussed in detail separately. (See "Patient education: Chickenpox prevention and treatment (Beyond the Basics)".)
+Two doses of varicella vaccine are needed, with the second dose administered four to eight weeks after the first. Women who are pregnant or plan to become pregnant within the next month and those with a history of anaphylactic reactions to neomycin or gelatin should not receive the varicella vaccine.
+Herpes zoster (shingles)  — Herpes zoster is caused by reactivation of the varicella-zoster virus, the same virus that causes chickenpox. After an episode of chickenpox, the virus lingers in cells of the nervous system, where it can reside quietly for decades. Herpes zoster can occur in individuals of all ages, but it is uncommon in children, adolescents, and young adults. It is much more common in adults aged 50 years and older and in those whose immune system has been weakened. (See "Patient education: Shingles (Beyond the Basics)".)
+A vaccine to prevent herpes zoster infection is available in the United States, Europe, and Australia. In studies of patients who received the vaccine, the incidence of herpes zoster infection was reduced by 50 percent; in those patients who did develop herpes zoster, the severity and duration of infection was modestly reduced, and the incidence of postherpetic neuralgia (a painful complication of herpes zoster) was reduced by greater than 60 percent.
+The vaccine is recommended for adults 60 years of age and older. It should not be used by people with a weakened immune system, pregnant women, or those with a history of a severe allergic reaction to gelatin or neomycin.
+Hepatitis B  — Inflammation of the liver (hepatitis) is caused by infection with certain viruses, including hepatitis B virus (HBV). Although the infection often resolves or is asymptomatic (does not cause symptoms), HBV can result in chronic infection that can lead to progressive liver scarring (cirrhosis) or liver cancer. HBV is transmitted by contact with an infected individual's body fluids, such as during unprotected sexual intercourse, the sharing of contaminated needles during injection drug use, or contact with contaminated blood or blood products. HBV can also be transmitted from a pregnant woman to her baby. (See "Patient education: Hepatitis B (Beyond the Basics)".)
+More than 100,000 people, mostly adults, are infected with HBV each year in the United States. Although the overall lifetime risk of acquiring HBV is only about 5 percent for the average person, the risk increases to almost 100 percent in the highest risk groups.
+A vaccine is available that protects against HBV. HBV vaccination is now recommended for all children in early childhood or as a "catch-up" immunization during early adolescence. In addition, any adult who is at risk for HBV infection should receive the HBV vaccine. The vaccine is given in three doses, with the second and third doses given one month and six months after the first dose.
+Adults who should receive the HBV vaccine include:
+●Healthcare and public safety workers
+●Personnel in institutions caring for the developmentally disabled and employees and inmates of correctional facilities
+●Household contacts and sex partners of people with chronic HBV
+●Individuals with multiple sex partners, people with sexually transmitted diseases, and men who have sex with men
+●People who inject street drugs
+●People who require blood clotting factors or kidney dialysis
+●People from countries where HBV is consistently present (endemic) and certain international travelers (see "Patient education: Vaccines for travel (The Basics)")
+●People with diabetes who are between ages 19 and 59
+People with anaphylactic reactions to yeast should not receive HBV vaccine.
+Hepatitis A  — Hepatitis due to infection with the hepatitis A virus (HAV) is one of the most common viral infections in children and adolescents in the United States. HAV infection often causes few or no symptoms in children. By contrast, infection in adults can vary in severity from a mild flu-like illness to rapidly progressive, severe hepatitis. Vaccinating children can help to protect adult caregivers from a potentially serious illness. (See "Patient education: Hepatitis A (Beyond the Basics)".)
+HAV is found in the stool of infected individuals. A person can become infected with HAV by consuming contaminated food or water or by touching the mouth, nose, or eyes after touching a contaminated surface (eg, in the bathroom or during a diaper change). Washing the hands can help to prevent infection.
+Vaccines are available to prevent infection with HAV. Both are equally effective in preventing infection.
+●VAQTA is given in two doses, with the second dose given 6 to 18 months after the first dose. This vaccine was temporarily recalled in the fall of 2001 because some prefilled syringes did not contain the proper amount of antigen to produce a reliable amount of antibody; this problem was subsequently corrected. People who were previously vaccinated against hepatitis A should contact their healthcare provider to determine which vaccine was given and if revaccination is needed.
+●HAVRIX is given in two doses, with the second dose given 6 to 12 months after the first.
+The HepA vaccine is recommended for susceptible at risk adults, including:
+●Travelers to countries where HAV is common
+●Injection and non-injection illegal drug users
+●Men who have sex with men
+●People with chronic liver disease
+●Adults with blood clotting factor disorders
+●Adults who are at risk for infection at work, including daycare center staff, personnel in healthcare facilities (eg, nursing homes), and food handlers
+Women who are pregnant should discuss the risks and benefits of the HepA vaccine with their obstetrical healthcare provider.
+Meningococcal  —  Neisseria meningitidis is a bacterium that causes serious illnesses, including bacterial meningitis. The bacteria lives on surfaces of the nose and pharynx (wind pipe) and is transmitted from person to person by direct contact with respiratory secretions. Although meningococcal disease is easily treated in most people, 10 to 14 percent of people die from the infection.
+Meningococcal vaccines are available to prevent infection. Expert groups recommend a meningococcal vaccine for all adolescents, college freshmen living in dormitories, military recruits, travelers going to areas where meningococcal disease frequently occurs, microbiologists who are exposed to Neisseria meningitidis, people who have had their spleen removed or whose spleen does not work properly, and people with terminal complement deficiency. Meningococcal vaccines can be used in adults infected with human immunodeficiency virus (HIV).
+Human papillomavirus (HPV)  — Human papillomavirus (HPV) causes more than 99 percent of cases of cervical cancer and genital warts. Persistent infection with certain types of HPV can lead to cancer of the cervix, anus, vagina, vulva, penis, mouth, or sinuses.
+Two vaccines (Gardasil and Cervarix) are available for females to help prevent infection with certain types of HPV. An article about the HPV vaccine is available separately. (See "Patient education: Human papillomavirus (HPV) vaccine (Beyond the Basics)".)
+Your healthcare provider is the best source of information for questions and concerns related to your medical problem.
+This article will be updated as needed on our web site (www.uptodate.com/patients). Related topics for patients, as well as selected articles written for healthcare professionals, are also available. Some of the most relevant are listed below.
+Patient level information  — UpToDate offers two types of patient education materials.
+The Basics  — The Basics patient education pieces answer the four or five key questions a patient might have about a given condition. These articles are best for patients who want a general overview and who prefer short, easy-to-read materials.
+Patient education: Vaccines for adults (The Basics) 
+Patient education: Vaccines (The Basics) 
+Patient education: Human papillomavirus (HPV) vaccine (The Basics) 
+Patient education: Vaccines and pregnancy (The Basics) 
+Patient education: Vaccines when you have hepatitis C (The Basics) 
+Patient education: Whooping cough (The Basics) 
+Patient education: Sickle cell disease (The Basics) 
+Patient education: Rubella (The Basics) 
+Patient education: Tetanus (The Basics) 
+Patient education: Poliomyelitis (The Basics) 
+Patient education: Diabetes and infections (The Basics) 
+Patient education: Measles (The Basics) 
+Patient education: Tdap vaccine (The Basics) 
+Patient education: When your child has sickle cell disease (The Basics) 
+Beyond the Basics  — Beyond the Basics patient education pieces are longer, more sophisticated, and more detailed. These articles are best for patients who want in-depth information and are comfortable with some medical jargon.
+Patient education: Why does my child need vaccines? (Beyond the Basics) 
+Patient education: Vaccines for infants and children age 0 to 6 years (Beyond the Basics) 
+Patient education: Pneumonia in adults (Beyond the Basics) 
+Patient education: Pneumonia prevention in adults (Beyond the Basics) 
+Patient education: Influenza symptoms and treatment (Beyond the Basics) 
+Patient education: Influenza prevention (Beyond the Basics) 
+Patient education: Chickenpox prevention and treatment (Beyond the Basics) 
+Patient education: Shingles (Beyond the Basics) 
+Patient education: Hepatitis B (Beyond the Basics) 
+Patient education: Hepatitis A (Beyond the Basics) 
+Patient education: Human papillomavirus (HPV) vaccine (Beyond the Basics) 
+Patient education: Vaccines for travel (The Basics) 
+Professional level information  — Professional level articles are designed to keep doctors and other health professionals up-to-date on the latest medical findings. These articles are thorough, long, and complex, and they contain multiple references to the research on which they are based. Professional level articles are best for people who are comfortable with a lot of medical terminology and who want to read the same materials their doctors are reading.
+Approach to immunizations in healthy adults 
+Assessing the immunologic response to vaccination 
+Clinical trials of human papillomavirus vaccines 
+Hepatitis A virus infection: Prevention 
+Hepatitis B virus vaccination 
+Immunizations during pregnancy 
+Immunizations in hematopoietic cell transplant candidates and recipients 
+Immunizations for healthcare providers 
+Immunizations for patients with chronic liver disease 
+Immunizations for travel 
+Immunizations in HIV-infected patients 
+Immunizations in patients with cancer 
+Immunizations in patients with end-stage renal disease 
+Immunizations in solid organ transplant candidates and recipients 
+Measles-mumps-rubella vaccination in high-risk adults 
+Meningococcal vaccines 
+Pneumococcal vaccination in adults 
+Poliovirus vaccination 
+Recommendations for the use of human papillomavirus vaccines 
+Seasonal influenza vaccination in adults 
+The following organizations also provide reliable health information.
+●National Library of Medicine
+●National Institute of Allergy and Infectious Diseases
+      (www.niaid.nih.gov/)
+●Centers for Disease Control and Prevention (CDC)
+      Toll-free: (800) 311-3435
+      (www.cdc.gov/)
+●National Foundation for Infectious Diseases
+      Tel: (301) 656-0003
+      (www.nfid.org)
+      All topics are updated as new information becomes available. Our peer review process typically takes one to six weeks depending on the issue.  	 	 	  

@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<annotations textSource="ThinkProgress_20160723T110700.txt">
+    <annotation>
+        <mention id="EHOST_Instance_70" />
+        <annotator id="01">Demian</annotator>
+        <span start="964" end="967" />
+        <spannedText>not</spannedText>
+        <creationDate>Wed Jan 12 19:45:02 CET 2022</creationDate>
+    </annotation>
+    <classMention id="EHOST_Instance_70">
+        <mentionClass id="NegCue">not</mentionClass>
+    </classMention>
+    <annotation>
+        <mention id="EHOST_Instance_71" />
+        <annotator id="01">Demian</annotator>
+        <span start="1417" end="1420" />
+        <spannedText>not</spannedText>
+        <creationDate>Wed Jan 12 19:45:20 CET 2022</creationDate>
+    </annotation>
+    <classMention id="EHOST_Instance_71">
+        <mentionClass id="NegCue">not</mentionClass>
+    </classMention>
+    <annotation>
+        <mention id="EHOST_Instance_72" />
+        <annotator id="01">Demian</annotator>
+        <span start="3157" end="3159" />
+        <spannedText>un</spannedText>
+        <creationDate>Wed Jan 12 19:46:47 CET 2022</creationDate>
+    </annotation>
+    <classMention id="EHOST_Instance_72">
+        <mentionClass id="NegCue">un</mentionClass>
+    </classMention>
+    <annotation>
+        <mention id="EHOST_Instance_73" />
+        <annotator id="01">Demian</annotator>
+        <span start="3919" end="3921" />
+        <spannedText>un</spannedText>
+        <creationDate>Wed Jan 12 19:49:23 CET 2022</creationDate>
+    </annotation>
+    <classMention id="EHOST_Instance_73">
+        <mentionClass id="NegCue">un</mentionClass>
+    </classMention>
+    <eHOST_Adjudication_Status version="1.0">
+        <Adjudication_Selected_Annotators version="1.0" />
+        <Adjudication_Selected_Classes version="1.0" />
+        <Adjudication_Others>
+            <CHECK_OVERLAPPED_SPANS>false</CHECK_OVERLAPPED_SPANS>
+            <CHECK_ATTRIBUTES>false</CHECK_ATTRIBUTES>
+            <CHECK_RELATIONSHIP>false</CHECK_RELATIONSHIP>
+            <CHECK_CLASS>false</CHECK_CLASS>
+            <CHECK_COMMENT>false</CHECK_COMMENT>
+        </Adjudication_Others>
+    </eHOST_Adjudication_Status>
+</annotations>
+

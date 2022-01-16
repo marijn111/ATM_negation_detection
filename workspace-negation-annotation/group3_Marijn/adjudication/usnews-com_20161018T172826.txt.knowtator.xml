@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<annotations textSource="usnews-com_20161018T172826.txt">
+    <annotation>
+        <mention id="EHOST_Instance_80" />
+        <annotator id="eHOST_2010">ADJUDICATION</annotator>
+        <span start="711" end="713" />
+        <spannedText>no</spannedText>
+        <creationDate>Tue Jan 11 21:16:11 CET 2022</creationDate>
+    </annotation>
+    <classMention id="EHOST_Instance_80">
+        <mentionClass id="NegCue">no</mentionClass>
+    </classMention>
+    <annotation>
+        <mention id="EHOST_Instance_85" />
+        <annotator id="eHOST_2010">ADJUDICATION</annotator>
+        <span start="1894" end="1897" />
+        <spannedText>not</spannedText>
+        <creationDate>Tue Jan 11 21:20:31 CET 2022</creationDate>
+    </annotation>
+    <classMention id="EHOST_Instance_85">
+        <mentionClass id="NegCue">not</mentionClass>
+    </classMention>
+    <annotation>
+        <mention id="EHOST_Instance_88" />
+        <annotator id="eHOST_2010">ADJUDICATION</annotator>
+        <span start="2390" end="2393" />
+        <spannedText>not</spannedText>
+        <creationDate>Tue Jan 11 21:21:45 CET 2022</creationDate>
+    </annotation>
+    <classMention id="EHOST_Instance_88">
+        <mentionClass id="NegCue">not</mentionClass>
+    </classMention>
+    <annotation>
+        <mention id="EHOST_Instance_89" />
+        <annotator id="eHOST_2010">ADJUDICATION</annotator>
+        <span start="3417" end="3420" />
+        <spannedText>not</spannedText>
+        <creationDate>Tue Jan 11 21:23:05 CET 2022</creationDate>
+    </annotation>
+    <classMention id="EHOST_Instance_89">
+        <mentionClass id="NegCue">not</mentionClass>
+    </classMention>
+    <annotation>
+        <mention id="EHOST_Instance_90" />
+        <annotator id="eHOST_2010">ADJUDICATION</annotator>
+        <span start="3453" end="3456" />
+        <spannedText>not</spannedText>
+        <creationDate>Tue Jan 11 21:23:07 CET 2022</creationDate>
+    </annotation>
+    <classMention id="EHOST_Instance_90">
+        <mentionClass id="NegCue">not</mentionClass>
+    </classMention>
+</annotations>
+

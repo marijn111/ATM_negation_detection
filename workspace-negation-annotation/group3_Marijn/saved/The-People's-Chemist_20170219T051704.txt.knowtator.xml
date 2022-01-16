@@ -1,0 +1,836 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<annotations textSource="The-People's-Chemist_20170219T051704.txt">
+    <annotation>
+        <mention id="EHOST_Instance_691" />
+        <annotator id="eHOST_2010">Marijn</annotator>
+        <span start="19" end="22" />
+        <spannedText>not</spannedText>
+        <creationDate>Wed Jan 12 09:27:38 CET 2022</creationDate>
+    </annotation>
+    <classMention id="EHOST_Instance_691">
+        <mentionClass id="NegCue">not</mentionClass>
+    </classMention>
+    <annotation>
+        <mention id="EHOST_Instance_692" />
+        <annotator id="eHOST_2010">Marijn</annotator>
+        <span start="1460" end="1463" />
+        <spannedText>n’t</spannedText>
+        <creationDate>Wed Jan 12 09:30:30 CET 2022</creationDate>
+    </annotation>
+    <classMention id="EHOST_Instance_692">
+        <mentionClass id="NegCue">n’t</mentionClass>
+    </classMention>
+    <annotation>
+        <mention id="EHOST_Instance_693" />
+        <annotator id="eHOST_2010">Marijn</annotator>
+        <span start="1703" end="1706" />
+        <spannedText>n’t</spannedText>
+        <creationDate>Wed Jan 12 09:31:30 CET 2022</creationDate>
+    </annotation>
+    <classMention id="EHOST_Instance_693">
+        <mentionClass id="NegCue">n’t</mentionClass>
+    </classMention>
+    <annotation>
+        <mention id="EHOST_Instance_694" />
+        <annotator id="eHOST_2010">Marijn</annotator>
+        <span start="1894" end="1896" />
+        <spannedText>un</spannedText>
+        <creationDate>Wed Jan 12 09:32:16 CET 2022</creationDate>
+    </annotation>
+    <classMention id="EHOST_Instance_694">
+        <mentionClass id="NegCue">un</mentionClass>
+    </classMention>
+    <annotation>
+        <mention id="EHOST_Instance_695" />
+        <annotator id="eHOST_2010">Marijn</annotator>
+        <span start="2778" end="2781" />
+        <spannedText>not</spannedText>
+        <creationDate>Wed Jan 12 09:33:26 CET 2022</creationDate>
+    </annotation>
+    <classMention id="EHOST_Instance_695">
+        <mentionClass id="NegCue">not</mentionClass>
+    </classMention>
+    <annotation>
+        <mention id="EHOST_Instance_696" />
+        <annotator id="eHOST_2010">Marijn</annotator>
+        <span start="2791" end="2794" />
+        <spannedText>not</spannedText>
+        <creationDate>Wed Jan 12 09:33:30 CET 2022</creationDate>
+    </annotation>
+    <classMention id="EHOST_Instance_696">
+        <mentionClass id="NegCue">not</mentionClass>
+    </classMention>
+    <annotation>
+        <mention id="EHOST_Instance_697" />
+        <annotator id="eHOST_2010">Marijn</annotator>
+        <span start="2920" end="2923" />
+        <spannedText>Not</spannedText>
+        <creationDate>Wed Jan 12 09:33:47 CET 2022</creationDate>
+    </annotation>
+    <classMention id="EHOST_Instance_697">
+        <mentionClass id="NegCue">Not</mentionClass>
+    </classMention>
+    <annotation>
+        <mention id="EHOST_Instance_698" />
+        <annotator id="eHOST_2010">Marijn</annotator>
+        <span start="3253" end="3256" />
+        <spannedText>not</spannedText>
+        <creationDate>Wed Jan 12 09:34:09 CET 2022</creationDate>
+    </annotation>
+    <classMention id="EHOST_Instance_698">
+        <mentionClass id="NegCue">not</mentionClass>
+    </classMention>
+    <annotation>
+        <mention id="EHOST_Instance_699" />
+        <annotator id="eHOST_2010">Marijn</annotator>
+        <span start="3594" end="3597" />
+        <spannedText>n’t</spannedText>
+        <creationDate>Wed Jan 12 09:34:53 CET 2022</creationDate>
+    </annotation>
+    <classMention id="EHOST_Instance_699">
+        <mentionClass id="NegCue">n’t</mentionClass>
+    </classMention>
+    <annotation>
+        <mention id="EHOST_Instance_700" />
+        <annotator id="eHOST_2010">Marijn</annotator>
+        <span start="6156" end="6159" />
+        <spannedText>not</spannedText>
+        <creationDate>Wed Jan 12 09:38:01 CET 2022</creationDate>
+    </annotation>
+    <classMention id="EHOST_Instance_700">
+        <mentionClass id="NegCue">not</mentionClass>
+    </classMention>
+    <annotation>
+        <mention id="EHOST_Instance_701" />
+        <annotator id="eHOST_2010">Marijn</annotator>
+        <span start="6423" end="6425" />
+        <spannedText>no</spannedText>
+        <creationDate>Wed Jan 12 09:38:36 CET 2022</creationDate>
+    </annotation>
+    <classMention id="EHOST_Instance_701">
+        <mentionClass id="NegCue">no</mentionClass>
+    </classMention>
+    <annotation>
+        <mention id="EHOST_Instance_702" />
+        <annotator id="eHOST_2010">Marijn</annotator>
+        <span start="7496" end="7498" />
+        <spannedText>un</spannedText>
+        <creationDate>Wed Jan 12 09:40:10 CET 2022</creationDate>
+    </annotation>
+    <classMention id="EHOST_Instance_702">
+        <mentionClass id="NegCue">un</mentionClass>
+    </classMention>
+    <annotation>
+        <mention id="EHOST_Instance_703" />
+        <annotator id="eHOST_2010">Marijn</annotator>
+        <span start="7688" end="7691" />
+        <spannedText>not</spannedText>
+        <creationDate>Wed Jan 12 09:40:41 CET 2022</creationDate>
+    </annotation>
+    <classMention id="EHOST_Instance_703">
+        <mentionClass id="NegCue">not</mentionClass>
+    </classMention>
+    <annotation>
+        <mention id="EHOST_Instance_704" />
+        <annotator id="eHOST_2010">Marijn</annotator>
+        <span start="8126" end="8128" />
+        <spannedText>no</spannedText>
+        <creationDate>Wed Jan 12 09:41:16 CET 2022</creationDate>
+    </annotation>
+    <classMention id="EHOST_Instance_704">
+        <mentionClass id="NegCue">no</mentionClass>
+    </classMention>
+    <annotation>
+        <mention id="EHOST_Instance_705" />
+        <annotator id="eHOST_2010">Marijn</annotator>
+        <span start="8181" end="8184" />
+        <spannedText>n’t</spannedText>
+        <creationDate>Wed Jan 12 09:41:33 CET 2022</creationDate>
+    </annotation>
+    <classMention id="EHOST_Instance_705">
+        <mentionClass id="NegCue">n’t</mentionClass>
+    </classMention>
+    <annotation>
+        <mention id="EHOST_Instance_706" />
+        <annotator id="eHOST_2010">Marijn</annotator>
+        <span start="8522" end="8524" />
+        <spannedText>in</spannedText>
+        <creationDate>Wed Jan 12 09:42:26 CET 2022</creationDate>
+    </annotation>
+    <classMention id="EHOST_Instance_706">
+        <mentionClass id="NegCue">in</mentionClass>
+    </classMention>
+    <annotation>
+        <mention id="EHOST_Instance_707" />
+        <annotator id="eHOST_2010">Marijn</annotator>
+        <span start="8708" end="8711" />
+        <spannedText>n’t</spannedText>
+        <creationDate>Wed Jan 12 09:43:12 CET 2022</creationDate>
+    </annotation>
+    <classMention id="EHOST_Instance_707">
+        <mentionClass id="NegCue">n’t</mentionClass>
+    </classMention>
+    <annotation>
+        <mention id="EHOST_Instance_708" />
+        <annotator id="eHOST_2010">Marijn</annotator>
+        <span start="8809" end="8812" />
+        <spannedText>n’t</spannedText>
+        <creationDate>Wed Jan 12 09:43:41 CET 2022</creationDate>
+    </annotation>
+    <classMention id="EHOST_Instance_708">
+        <mentionClass id="NegCue">n’t</mentionClass>
+    </classMention>
+    <annotation>
+        <mention id="EHOST_Instance_709" />
+        <annotator id="eHOST_2010">Marijn</annotator>
+        <span start="9782" end="9784" />
+        <spannedText>de</spannedText>
+        <creationDate>Wed Jan 12 09:46:40 CET 2022</creationDate>
+    </annotation>
+    <classMention id="EHOST_Instance_709">
+        <mentionClass id="NegCue">de</mentionClass>
+    </classMention>
+    <annotation>
+        <mention id="EHOST_Instance_710" />
+        <annotator id="eHOST_2010">Marijn</annotator>
+        <span start="9919" end="9923" />
+        <spannedText>anti</spannedText>
+        <creationDate>Wed Jan 12 09:47:38 CET 2022</creationDate>
+    </annotation>
+    <classMention id="EHOST_Instance_710">
+        <mentionClass id="NegCue">anti</mentionClass>
+    </classMention>
+    <annotation>
+        <mention id="EHOST_Instance_711" />
+        <annotator id="eHOST_2010">Marijn</annotator>
+        <span start="10003" end="10006" />
+        <spannedText>n’t</spannedText>
+        <creationDate>Wed Jan 12 09:48:12 CET 2022</creationDate>
+    </annotation>
+    <classMention id="EHOST_Instance_711">
+        <mentionClass id="NegCue">n’t</mentionClass>
+    </classMention>
+    <annotation>
+        <mention id="EHOST_Instance_712" />
+        <annotator id="eHOST_2010">Marijn</annotator>
+        <span start="10236" end="10239" />
+        <spannedText>n’t</spannedText>
+        <creationDate>Wed Jan 12 09:49:14 CET 2022</creationDate>
+    </annotation>
+    <classMention id="EHOST_Instance_712">
+        <mentionClass id="NegCue">n’t</mentionClass>
+    </classMention>
+    <annotation>
+        <mention id="EHOST_Instance_713" />
+        <annotator id="eHOST_2010">Marijn</annotator>
+        <span start="10453" end="10456" />
+        <spannedText>n’t</spannedText>
+        <creationDate>Wed Jan 12 09:49:42 CET 2022</creationDate>
+    </annotation>
+    <classMention id="EHOST_Instance_713">
+        <mentionClass id="NegCue">n’t</mentionClass>
+    </classMention>
+    <annotation>
+        <mention id="EHOST_Instance_714" />
+        <annotator id="eHOST_2010">Marijn</annotator>
+        <span start="10717" end="10722" />
+        <spannedText>never</spannedText>
+        <creationDate>Wed Jan 12 09:50:08 CET 2022</creationDate>
+    </annotation>
+    <classMention id="EHOST_Instance_714">
+        <mentionClass id="NegCue">never</mentionClass>
+    </classMention>
+    <annotation>
+        <mention id="EHOST_Instance_715" />
+        <annotator id="eHOST_2010">Marijn</annotator>
+        <span start="12968" end="12971" />
+        <spannedText>Not</spannedText>
+        <creationDate>Wed Jan 12 09:53:27 CET 2022</creationDate>
+    </annotation>
+    <classMention id="EHOST_Instance_715">
+        <mentionClass id="NegCue">Not</mentionClass>
+    </classMention>
+    <annotation>
+        <mention id="EHOST_Instance_716" />
+        <annotator id="eHOST_2010">Marijn</annotator>
+        <span start="12916" end="12920" />
+        <spannedText>Anti</spannedText>
+        <creationDate>Wed Jan 12 09:54:10 CET 2022</creationDate>
+    </annotation>
+    <classMention id="EHOST_Instance_716">
+        <mentionClass id="NegCue">Anti</mentionClass>
+    </classMention>
+    <annotation>
+        <mention id="EHOST_Instance_717" />
+        <annotator id="eHOST_2010">Marijn</annotator>
+        <span start="13122" end="13125" />
+        <spannedText>not</spannedText>
+        <creationDate>Wed Jan 12 09:54:32 CET 2022</creationDate>
+    </annotation>
+    <classMention id="EHOST_Instance_717">
+        <mentionClass id="NegCue">not</mentionClass>
+    </classMention>
+    <annotation>
+        <mention id="EHOST_Instance_718" />
+        <annotator id="eHOST_2010">Marijn</annotator>
+        <span start="13582" end="13585" />
+        <spannedText>n’t</spannedText>
+        <creationDate>Wed Jan 12 09:55:54 CET 2022</creationDate>
+    </annotation>
+    <classMention id="EHOST_Instance_718">
+        <mentionClass id="NegCue">n’t</mentionClass>
+    </classMention>
+    <annotation>
+        <mention id="EHOST_Instance_719" />
+        <annotator id="eHOST_2010">Marijn</annotator>
+        <span start="13935" end="13940" />
+        <spannedText>never</spannedText>
+        <creationDate>Wed Jan 12 09:56:25 CET 2022</creationDate>
+    </annotation>
+    <classMention id="EHOST_Instance_719">
+        <mentionClass id="NegCue">never</mentionClass>
+    </classMention>
+    <annotation>
+        <mention id="EHOST_Instance_720" />
+        <annotator id="eHOST_2010">Marijn</annotator>
+        <span start="14167" end="14169" />
+        <spannedText>no</spannedText>
+        <creationDate>Wed Jan 12 09:56:38 CET 2022</creationDate>
+    </annotation>
+    <classMention id="EHOST_Instance_720">
+        <mentionClass id="NegCue">no</mentionClass>
+    </classMention>
+    <annotation>
+        <mention id="EHOST_Instance_721" />
+        <annotator id="eHOST_2010">Marijn</annotator>
+        <span start="14234" end="14236" />
+        <spannedText>no</spannedText>
+        <creationDate>Wed Jan 12 09:56:47 CET 2022</creationDate>
+    </annotation>
+    <classMention id="EHOST_Instance_721">
+        <mentionClass id="NegCue">no</mentionClass>
+    </classMention>
+    <annotation>
+        <mention id="EHOST_Instance_722" />
+        <annotator id="eHOST_2010">Marijn</annotator>
+        <span start="14474" end="14477" />
+        <spannedText>not</spannedText>
+        <creationDate>Wed Jan 12 09:57:05 CET 2022</creationDate>
+    </annotation>
+    <classMention id="EHOST_Instance_722">
+        <mentionClass id="NegCue">not</mentionClass>
+    </classMention>
+    <annotation>
+        <mention id="EHOST_Instance_723" />
+        <annotator id="eHOST_2010">Marijn</annotator>
+        <span start="14549" end="14552" />
+        <spannedText>nor</spannedText>
+        <creationDate>Wed Jan 12 09:57:22 CET 2022</creationDate>
+    </annotation>
+    <classMention id="EHOST_Instance_723">
+        <mentionClass id="NegCue">nor</mentionClass>
+    </classMention>
+    <annotation>
+        <mention id="EHOST_Instance_724" />
+        <annotator id="eHOST_2010">Marijn</annotator>
+        <span start="14591" end="14594" />
+        <spannedText>n’t</spannedText>
+        <creationDate>Wed Jan 12 09:57:41 CET 2022</creationDate>
+    </annotation>
+    <classMention id="EHOST_Instance_724">
+        <mentionClass id="NegCue">n’t</mentionClass>
+    </classMention>
+    <annotation>
+        <mention id="EHOST_Instance_725" />
+        <annotator id="eHOST_2010">Marijn</annotator>
+        <span start="14729" end="14732" />
+        <spannedText>n’t</spannedText>
+        <creationDate>Wed Jan 12 09:58:10 CET 2022</creationDate>
+    </annotation>
+    <classMention id="EHOST_Instance_725">
+        <mentionClass id="NegCue">n’t</mentionClass>
+    </classMention>
+    <annotation>
+        <mention id="EHOST_Instance_726" />
+        <annotator id="eHOST_2010">Marijn</annotator>
+        <span start="14857" end="14860" />
+        <spannedText>not</spannedText>
+        <creationDate>Wed Jan 12 09:58:29 CET 2022</creationDate>
+    </annotation>
+    <classMention id="EHOST_Instance_726">
+        <mentionClass id="NegCue">not</mentionClass>
+    </classMention>
+    <annotation>
+        <mention id="EHOST_Instance_727" />
+        <annotator id="eHOST_2010">Marijn</annotator>
+        <span start="14973" end="14976" />
+        <spannedText>non</spannedText>
+        <creationDate>Wed Jan 12 09:59:08 CET 2022</creationDate>
+    </annotation>
+    <classMention id="EHOST_Instance_727">
+        <mentionClass id="NegCue">non</mentionClass>
+    </classMention>
+    <adjudicating>
+        <mention id="EHOST_Instance_728" />
+        <annotator id="eHOST_2010">Marijn</annotator>
+        <span start="19" end="22" />
+        <spannedText>not</spannedText>
+        <creationDate>Wed Jan 12 09:27:38 CET 2022</creationDate>
+        <processed>true</processed>
+        <AdjudicationStatus>NON_MATCHES</AdjudicationStatus>
+    </adjudicating>
+    <classMention id="EHOST_Instance_728">
+        <mentionClass id="NegCue">not</mentionClass>
+    </classMention>
+    <adjudicating>
+        <mention id="EHOST_Instance_729" />
+        <annotator id="eHOST_2010">Marijn</annotator>
+        <span start="1460" end="1463" />
+        <spannedText>n’t</spannedText>
+        <creationDate>Wed Jan 12 09:30:30 CET 2022</creationDate>
+        <processed>true</processed>
+        <AdjudicationStatus>NON_MATCHES</AdjudicationStatus>
+    </adjudicating>
+    <classMention id="EHOST_Instance_729">
+        <mentionClass id="NegCue">n’t</mentionClass>
+    </classMention>
+    <adjudicating>
+        <mention id="EHOST_Instance_730" />
+        <annotator id="eHOST_2010">Marijn</annotator>
+        <span start="1703" end="1706" />
+        <spannedText>n’t</spannedText>
+        <creationDate>Wed Jan 12 09:31:30 CET 2022</creationDate>
+        <processed>true</processed>
+        <AdjudicationStatus>NON_MATCHES</AdjudicationStatus>
+    </adjudicating>
+    <classMention id="EHOST_Instance_730">
+        <mentionClass id="NegCue">n’t</mentionClass>
+    </classMention>
+    <adjudicating>
+        <mention id="EHOST_Instance_731" />
+        <annotator id="eHOST_2010">Marijn</annotator>
+        <span start="1894" end="1896" />
+        <spannedText>un</spannedText>
+        <creationDate>Wed Jan 12 09:32:16 CET 2022</creationDate>
+        <processed>true</processed>
+        <AdjudicationStatus>NON_MATCHES</AdjudicationStatus>
+    </adjudicating>
+    <classMention id="EHOST_Instance_731">
+        <mentionClass id="NegCue">un</mentionClass>
+    </classMention>
+    <adjudicating>
+        <mention id="EHOST_Instance_732" />
+        <annotator id="eHOST_2010">Marijn</annotator>
+        <span start="2778" end="2781" />
+        <spannedText>not</spannedText>
+        <creationDate>Wed Jan 12 09:33:26 CET 2022</creationDate>
+        <processed>true</processed>
+        <AdjudicationStatus>NON_MATCHES</AdjudicationStatus>
+    </adjudicating>
+    <classMention id="EHOST_Instance_732">
+        <mentionClass id="NegCue">not</mentionClass>
+    </classMention>
+    <adjudicating>
+        <mention id="EHOST_Instance_733" />
+        <annotator id="eHOST_2010">Marijn</annotator>
+        <span start="2791" end="2794" />
+        <spannedText>not</spannedText>
+        <creationDate>Wed Jan 12 09:33:30 CET 2022</creationDate>
+        <processed>true</processed>
+        <AdjudicationStatus>NON_MATCHES</AdjudicationStatus>
+    </adjudicating>
+    <classMention id="EHOST_Instance_733">
+        <mentionClass id="NegCue">not</mentionClass>
+    </classMention>
+    <adjudicating>
+        <mention id="EHOST_Instance_734" />
+        <annotator id="eHOST_2010">Marijn</annotator>
+        <span start="2920" end="2923" />
+        <spannedText>Not</spannedText>
+        <creationDate>Wed Jan 12 09:33:47 CET 2022</creationDate>
+        <processed>true</processed>
+        <AdjudicationStatus>NON_MATCHES</AdjudicationStatus>
+    </adjudicating>
+    <classMention id="EHOST_Instance_734">
+        <mentionClass id="NegCue">Not</mentionClass>
+    </classMention>
+    <adjudicating>
+        <mention id="EHOST_Instance_735" />
+        <annotator id="eHOST_2010">Marijn</annotator>
+        <span start="3253" end="3256" />
+        <spannedText>not</spannedText>
+        <creationDate>Wed Jan 12 09:34:09 CET 2022</creationDate>
+        <processed>true</processed>
+        <AdjudicationStatus>NON_MATCHES</AdjudicationStatus>
+    </adjudicating>
+    <classMention id="EHOST_Instance_735">
+        <mentionClass id="NegCue">not</mentionClass>
+    </classMention>
+    <adjudicating>
+        <mention id="EHOST_Instance_736" />
+        <annotator id="eHOST_2010">Marijn</annotator>
+        <span start="3594" end="3597" />
+        <spannedText>n’t</spannedText>
+        <creationDate>Wed Jan 12 09:34:53 CET 2022</creationDate>
+        <processed>true</processed>
+        <AdjudicationStatus>NON_MATCHES</AdjudicationStatus>
+    </adjudicating>
+    <classMention id="EHOST_Instance_736">
+        <mentionClass id="NegCue">n’t</mentionClass>
+    </classMention>
+    <adjudicating>
+        <mention id="EHOST_Instance_737" />
+        <annotator id="eHOST_2010">Marijn</annotator>
+        <span start="6156" end="6159" />
+        <spannedText>not</spannedText>
+        <creationDate>Wed Jan 12 09:38:01 CET 2022</creationDate>
+        <processed>true</processed>
+        <AdjudicationStatus>NON_MATCHES</AdjudicationStatus>
+    </adjudicating>
+    <classMention id="EHOST_Instance_737">
+        <mentionClass id="NegCue">not</mentionClass>
+    </classMention>
+    <adjudicating>
+        <mention id="EHOST_Instance_738" />
+        <annotator id="eHOST_2010">Marijn</annotator>
+        <span start="6423" end="6425" />
+        <spannedText>no</spannedText>
+        <creationDate>Wed Jan 12 09:38:36 CET 2022</creationDate>
+        <processed>true</processed>
+        <AdjudicationStatus>NON_MATCHES</AdjudicationStatus>
+    </adjudicating>
+    <classMention id="EHOST_Instance_738">
+        <mentionClass id="NegCue">no</mentionClass>
+    </classMention>
+    <adjudicating>
+        <mention id="EHOST_Instance_739" />
+        <annotator id="eHOST_2010">Marijn</annotator>
+        <span start="7496" end="7498" />
+        <spannedText>un</spannedText>
+        <creationDate>Wed Jan 12 09:40:10 CET 2022</creationDate>
+        <processed>true</processed>
+        <AdjudicationStatus>NON_MATCHES</AdjudicationStatus>
+    </adjudicating>
+    <classMention id="EHOST_Instance_739">
+        <mentionClass id="NegCue">un</mentionClass>
+    </classMention>
+    <adjudicating>
+        <mention id="EHOST_Instance_740" />
+        <annotator id="eHOST_2010">Marijn</annotator>
+        <span start="7688" end="7691" />
+        <spannedText>not</spannedText>
+        <creationDate>Wed Jan 12 09:40:41 CET 2022</creationDate>
+        <processed>true</processed>
+        <AdjudicationStatus>NON_MATCHES</AdjudicationStatus>
+    </adjudicating>
+    <classMention id="EHOST_Instance_740">
+        <mentionClass id="NegCue">not</mentionClass>
+    </classMention>
+    <adjudicating>
+        <mention id="EHOST_Instance_741" />
+        <annotator id="eHOST_2010">Marijn</annotator>
+        <span start="8126" end="8128" />
+        <spannedText>no</spannedText>
+        <creationDate>Wed Jan 12 09:41:16 CET 2022</creationDate>
+        <processed>true</processed>
+        <AdjudicationStatus>NON_MATCHES</AdjudicationStatus>
+    </adjudicating>
+    <classMention id="EHOST_Instance_741">
+        <mentionClass id="NegCue">no</mentionClass>
+    </classMention>
+    <adjudicating>
+        <mention id="EHOST_Instance_742" />
+        <annotator id="eHOST_2010">Marijn</annotator>
+        <span start="8181" end="8184" />
+        <spannedText>n’t</spannedText>
+        <creationDate>Wed Jan 12 09:41:33 CET 2022</creationDate>
+        <processed>true</processed>
+        <AdjudicationStatus>NON_MATCHES</AdjudicationStatus>
+    </adjudicating>
+    <classMention id="EHOST_Instance_742">
+        <mentionClass id="NegCue">n’t</mentionClass>
+    </classMention>
+    <adjudicating>
+        <mention id="EHOST_Instance_743" />
+        <annotator id="eHOST_2010">Marijn</annotator>
+        <span start="8522" end="8524" />
+        <spannedText>in</spannedText>
+        <creationDate>Wed Jan 12 09:42:26 CET 2022</creationDate>
+        <processed>true</processed>
+        <AdjudicationStatus>NON_MATCHES</AdjudicationStatus>
+    </adjudicating>
+    <classMention id="EHOST_Instance_743">
+        <mentionClass id="NegCue">in</mentionClass>
+    </classMention>
+    <adjudicating>
+        <mention id="EHOST_Instance_744" />
+        <annotator id="eHOST_2010">Marijn</annotator>
+        <span start="8708" end="8711" />
+        <spannedText>n’t</spannedText>
+        <creationDate>Wed Jan 12 09:43:12 CET 2022</creationDate>
+        <processed>true</processed>
+        <AdjudicationStatus>NON_MATCHES</AdjudicationStatus>
+    </adjudicating>
+    <classMention id="EHOST_Instance_744">
+        <mentionClass id="NegCue">n’t</mentionClass>
+    </classMention>
+    <adjudicating>
+        <mention id="EHOST_Instance_745" />
+        <annotator id="eHOST_2010">Marijn</annotator>
+        <span start="8809" end="8812" />
+        <spannedText>n’t</spannedText>
+        <creationDate>Wed Jan 12 09:43:41 CET 2022</creationDate>
+        <processed>true</processed>
+        <AdjudicationStatus>NON_MATCHES</AdjudicationStatus>
+    </adjudicating>
+    <classMention id="EHOST_Instance_745">
+        <mentionClass id="NegCue">n’t</mentionClass>
+    </classMention>
+    <adjudicating>
+        <mention id="EHOST_Instance_746" />
+        <annotator id="eHOST_2010">Marijn</annotator>
+        <span start="9782" end="9784" />
+        <spannedText>de</spannedText>
+        <creationDate>Wed Jan 12 09:46:40 CET 2022</creationDate>
+        <processed>true</processed>
+        <AdjudicationStatus>NON_MATCHES</AdjudicationStatus>
+    </adjudicating>
+    <classMention id="EHOST_Instance_746">
+        <mentionClass id="NegCue">de</mentionClass>
+    </classMention>
+    <adjudicating>
+        <mention id="EHOST_Instance_747" />
+        <annotator id="eHOST_2010">Marijn</annotator>
+        <span start="9919" end="9923" />
+        <spannedText>anti</spannedText>
+        <creationDate>Wed Jan 12 09:47:38 CET 2022</creationDate>
+        <processed>true</processed>
+        <AdjudicationStatus>NON_MATCHES</AdjudicationStatus>
+    </adjudicating>
+    <classMention id="EHOST_Instance_747">
+        <mentionClass id="NegCue">anti</mentionClass>
+    </classMention>
+    <adjudicating>
+        <mention id="EHOST_Instance_748" />
+        <annotator id="eHOST_2010">Marijn</annotator>
+        <span start="10003" end="10006" />
+        <spannedText>n’t</spannedText>
+        <creationDate>Wed Jan 12 09:48:12 CET 2022</creationDate>
+        <processed>true</processed>
+        <AdjudicationStatus>NON_MATCHES</AdjudicationStatus>
+    </adjudicating>
+    <classMention id="EHOST_Instance_748">
+        <mentionClass id="NegCue">n’t</mentionClass>
+    </classMention>
+    <adjudicating>
+        <mention id="EHOST_Instance_749" />
+        <annotator id="eHOST_2010">Marijn</annotator>
+        <span start="10236" end="10239" />
+        <spannedText>n’t</spannedText>
+        <creationDate>Wed Jan 12 09:49:14 CET 2022</creationDate>
+        <processed>true</processed>
+        <AdjudicationStatus>NON_MATCHES</AdjudicationStatus>
+    </adjudicating>
+    <classMention id="EHOST_Instance_749">
+        <mentionClass id="NegCue">n’t</mentionClass>
+    </classMention>
+    <adjudicating>
+        <mention id="EHOST_Instance_750" />
+        <annotator id="eHOST_2010">Marijn</annotator>
+        <span start="10453" end="10456" />
+        <spannedText>n’t</spannedText>
+        <creationDate>Wed Jan 12 09:49:42 CET 2022</creationDate>
+        <processed>true</processed>
+        <AdjudicationStatus>NON_MATCHES</AdjudicationStatus>
+    </adjudicating>
+    <classMention id="EHOST_Instance_750">
+        <mentionClass id="NegCue">n’t</mentionClass>
+    </classMention>
+    <adjudicating>
+        <mention id="EHOST_Instance_751" />
+        <annotator id="eHOST_2010">Marijn</annotator>
+        <span start="10717" end="10722" />
+        <spannedText>never</spannedText>
+        <creationDate>Wed Jan 12 09:50:08 CET 2022</creationDate>
+        <processed>true</processed>
+        <AdjudicationStatus>NON_MATCHES</AdjudicationStatus>
+    </adjudicating>
+    <classMention id="EHOST_Instance_751">
+        <mentionClass id="NegCue">never</mentionClass>
+    </classMention>
+    <adjudicating>
+        <mention id="EHOST_Instance_752" />
+        <annotator id="eHOST_2010">Marijn</annotator>
+        <span start="12968" end="12971" />
+        <spannedText>Not</spannedText>
+        <creationDate>Wed Jan 12 09:53:27 CET 2022</creationDate>
+        <processed>true</processed>
+        <AdjudicationStatus>NON_MATCHES</AdjudicationStatus>
+    </adjudicating>
+    <classMention id="EHOST_Instance_752">
+        <mentionClass id="NegCue">Not</mentionClass>
+    </classMention>
+    <adjudicating>
+        <mention id="EHOST_Instance_753" />
+        <annotator id="eHOST_2010">Marijn</annotator>
+        <span start="12916" end="12920" />
+        <spannedText>Anti</spannedText>
+        <creationDate>Wed Jan 12 09:54:10 CET 2022</creationDate>
+        <processed>true</processed>
+        <AdjudicationStatus>NON_MATCHES</AdjudicationStatus>
+    </adjudicating>
+    <classMention id="EHOST_Instance_753">
+        <mentionClass id="NegCue">Anti</mentionClass>
+    </classMention>
+    <adjudicating>
+        <mention id="EHOST_Instance_754" />
+        <annotator id="eHOST_2010">Marijn</annotator>
+        <span start="13122" end="13125" />
+        <spannedText>not</spannedText>
+        <creationDate>Wed Jan 12 09:54:32 CET 2022</creationDate>
+        <processed>true</processed>
+        <AdjudicationStatus>NON_MATCHES</AdjudicationStatus>
+    </adjudicating>
+    <classMention id="EHOST_Instance_754">
+        <mentionClass id="NegCue">not</mentionClass>
+    </classMention>
+    <adjudicating>
+        <mention id="EHOST_Instance_755" />
+        <annotator id="eHOST_2010">Marijn</annotator>
+        <span start="13582" end="13585" />
+        <spannedText>n’t</spannedText>
+        <creationDate>Wed Jan 12 09:55:54 CET 2022</creationDate>
+        <processed>true</processed>
+        <AdjudicationStatus>NON_MATCHES</AdjudicationStatus>
+    </adjudicating>
+    <classMention id="EHOST_Instance_755">
+        <mentionClass id="NegCue">n’t</mentionClass>
+    </classMention>
+    <adjudicating>
+        <mention id="EHOST_Instance_756" />
+        <annotator id="eHOST_2010">Marijn</annotator>
+        <span start="13935" end="13940" />
+        <spannedText>never</spannedText>
+        <creationDate>Wed Jan 12 09:56:25 CET 2022</creationDate>
+        <processed>true</processed>
+        <AdjudicationStatus>NON_MATCHES</AdjudicationStatus>
+    </adjudicating>
+    <classMention id="EHOST_Instance_756">
+        <mentionClass id="NegCue">never</mentionClass>
+    </classMention>
+    <adjudicating>
+        <mention id="EHOST_Instance_757" />
+        <annotator id="eHOST_2010">Marijn</annotator>
+        <span start="14167" end="14169" />
+        <spannedText>no</spannedText>
+        <creationDate>Wed Jan 12 09:56:38 CET 2022</creationDate>
+        <processed>true</processed>
+        <AdjudicationStatus>NON_MATCHES</AdjudicationStatus>
+    </adjudicating>
+    <classMention id="EHOST_Instance_757">
+        <mentionClass id="NegCue">no</mentionClass>
+    </classMention>
+    <adjudicating>
+        <mention id="EHOST_Instance_758" />
+        <annotator id="eHOST_2010">Marijn</annotator>
+        <span start="14234" end="14236" />
+        <spannedText>no</spannedText>
+        <creationDate>Wed Jan 12 09:56:47 CET 2022</creationDate>
+        <processed>true</processed>
+        <AdjudicationStatus>NON_MATCHES</AdjudicationStatus>
+    </adjudicating>
+    <classMention id="EHOST_Instance_758">
+        <mentionClass id="NegCue">no</mentionClass>
+    </classMention>
+    <adjudicating>
+        <mention id="EHOST_Instance_759" />
+        <annotator id="eHOST_2010">Marijn</annotator>
+        <span start="14474" end="14477" />
+        <spannedText>not</spannedText>
+        <creationDate>Wed Jan 12 09:57:05 CET 2022</creationDate>
+        <processed>true</processed>
+        <AdjudicationStatus>NON_MATCHES</AdjudicationStatus>
+    </adjudicating>
+    <classMention id="EHOST_Instance_759">
+        <mentionClass id="NegCue">not</mentionClass>
+    </classMention>
+    <adjudicating>
+        <mention id="EHOST_Instance_760" />
+        <annotator id="eHOST_2010">Marijn</annotator>
+        <span start="14549" end="14552" />
+        <spannedText>nor</spannedText>
+        <creationDate>Wed Jan 12 09:57:22 CET 2022</creationDate>
+        <processed>true</processed>
+        <AdjudicationStatus>NON_MATCHES</AdjudicationStatus>
+    </adjudicating>
+    <classMention id="EHOST_Instance_760">
+        <mentionClass id="NegCue">nor</mentionClass>
+    </classMention>
+    <adjudicating>
+        <mention id="EHOST_Instance_761" />
+        <annotator id="eHOST_2010">Marijn</annotator>
+        <span start="14591" end="14594" />
+        <spannedText>n’t</spannedText>
+        <creationDate>Wed Jan 12 09:57:41 CET 2022</creationDate>
+        <processed>true</processed>
+        <AdjudicationStatus>NON_MATCHES</AdjudicationStatus>
+    </adjudicating>
+    <classMention id="EHOST_Instance_761">
+        <mentionClass id="NegCue">n’t</mentionClass>
+    </classMention>
+    <adjudicating>
+        <mention id="EHOST_Instance_762" />
+        <annotator id="eHOST_2010">Marijn</annotator>
+        <span start="14729" end="14732" />
+        <spannedText>n’t</spannedText>
+        <creationDate>Wed Jan 12 09:58:10 CET 2022</creationDate>
+        <processed>true</processed>
+        <AdjudicationStatus>NON_MATCHES</AdjudicationStatus>
+    </adjudicating>
+    <classMention id="EHOST_Instance_762">
+        <mentionClass id="NegCue">n’t</mentionClass>
+    </classMention>
+    <adjudicating>
+        <mention id="EHOST_Instance_763" />
+        <annotator id="eHOST_2010">Marijn</annotator>
+        <span start="14857" end="14860" />
+        <spannedText>not</spannedText>
+        <creationDate>Wed Jan 12 09:58:29 CET 2022</creationDate>
+        <processed>true</processed>
+        <AdjudicationStatus>NON_MATCHES</AdjudicationStatus>
+    </adjudicating>
+    <classMention id="EHOST_Instance_763">
+        <mentionClass id="NegCue">not</mentionClass>
+    </classMention>
+    <adjudicating>
+        <mention id="EHOST_Instance_764" />
+        <annotator id="eHOST_2010">Marijn</annotator>
+        <span start="14973" end="14976" />
+        <spannedText>non</spannedText>
+        <creationDate>Wed Jan 12 09:59:08 CET 2022</creationDate>
+        <processed>true</processed>
+        <AdjudicationStatus>NON_MATCHES</AdjudicationStatus>
+    </adjudicating>
+    <classMention id="EHOST_Instance_764">
+        <mentionClass id="NegCue">non</mentionClass>
+    </classMention>
+    <eHOST_Adjudication_Status version="1.0">
+        <Adjudication_Selected_Annotators version="1.0">
+            <Annotator>Marijn</Annotator>
+            <Annotator>Younes Seghrouchni</Annotator>
+            <Annotator>Demian</Annotator>
+            <Annotator>ADJUDICATION</Annotator>
+        </Adjudication_Selected_Annotators>
+        <Adjudication_Selected_Classes version="1.0">
+            <Class>NegCue</Class>
+        </Adjudication_Selected_Classes>
+        <Adjudication_Others>
+            <CHECK_OVERLAPPED_SPANS>false</CHECK_OVERLAPPED_SPANS>
+            <CHECK_ATTRIBUTES>false</CHECK_ATTRIBUTES>
+            <CHECK_RELATIONSHIP>false</CHECK_RELATIONSHIP>
+            <CHECK_CLASS>false</CHECK_CLASS>
+            <CHECK_COMMENT>false</CHECK_COMMENT>
+        </Adjudication_Others>
+    </eHOST_Adjudication_Status>
+</annotations>
+
