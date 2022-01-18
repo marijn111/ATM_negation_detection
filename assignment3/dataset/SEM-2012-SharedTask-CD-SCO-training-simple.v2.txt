@@ -1,6 +1,6 @@
 baskervilles01	0	0	Chapter	O
 baskervilles01	0	1	1.	O
-baskervilles01	0	2	Mr.	O
+baskervilles01	0	2   Mr.	O
 baskervilles01	0	3	Sherlock	O
 baskervilles01	0	4	Holmes	O
 
