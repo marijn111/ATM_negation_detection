@@ -1,7 +1,25 @@
+import os
 from loguru import logger
 import pandas as pd
 
 from assignment3.process_data import *
+
+def file_names()-> list:
+    path = ''
+    file_list = []
+    for root, dirs, files in os.walk("."):
+        for filename in files:
+            file_list.append(filename)
+    return file_list
+
+
+def load_files(file_list: list) -> pd.DataFrame:
+    path = ''
+    for file in file_list:
+        logger.info(f"Reading {file}")
+
+
+    return df
 
 
 def load_file(filename: str, column_names: list) -> pd.DataFrame:
