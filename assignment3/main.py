@@ -18,7 +18,6 @@ def load_files(file_list: list) -> pd.DataFrame:
     for file in file_list:
         logger.info(f"Reading {file}")
 
-
     return df
 
 

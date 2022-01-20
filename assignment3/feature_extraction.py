@@ -1,6 +1,8 @@
 import pandas as pd
 from nltk import pos_tag, pos_tag_sents
 
+#TODO: MAKE sentence - pos tagger - dependancy tree - N-grams - affix detection - Count of negation cue sub-tokens - Chunking -
+
 
 def chunking():
 

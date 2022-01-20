@@ -3,6 +3,10 @@ from nltk import word_tokenize, WordNetLemmatizer, sent_tokenize
 from nltk.corpus import stopwords
 from nltk.stem.snowball import SnowballStemmer
 
+#TODO: MAKE sentence
+
+def make_sentence():
+    return
 
 
 def lowercase_column(df: pd.Dataframe, column:str) -> pd.DataFrame:

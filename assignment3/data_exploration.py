@@ -2,6 +2,7 @@ import matplotlib.pyplot as plt
 from wordcloud import WordCloud, STOPWORDS
 import pandas as pd
 
+#TODO: Aantal zinnen, aantal token, aantal negations, (word cloud)
 
 
 def count_nans(df: pd.Dataframe, column:str) -> pd.DataFrame:
