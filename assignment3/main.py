@@ -1,9 +1,10 @@
 import os
 from loguru import logger
-import pandas as pd
+
 
 from assignment3.process_data import *
 from assignment3.data_exploration import data_exploration
+import pandas as pd
 
 def file_names()-> list:
     path = ''
@@ -14,12 +15,10 @@ def file_names()-> list:
     return file_list
 
 
-
 def load_files(file_list: list) -> pd.DataFrame:
     path = ''
     for file in file_list:
         logger.info(f"Reading {file}")
-
     return df
 
 
