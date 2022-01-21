@@ -38,3 +38,5 @@ if __name__ == '__main__':
     logger.info('Read training data')
     df = load_file('dataset/SEM-2012-SharedTask-CD-SCO-training-simple.v2.txt', ['document', 'sentence_number', 'location', 'token', 'value'])
     data_exploration(df)
+    preprocess_data(df)
+

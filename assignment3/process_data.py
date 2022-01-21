@@ -46,3 +46,8 @@ def stem_sentences(df: pd.DataFrame, column:str) -> pd.DataFrame:
     stemmer = SnowballStemmer("english")
     df['stemmed'] = df[column].map(lambda x: ' '.join([stemmer.stem(y) for y in x.split(' ')]))
     return df
+
+
+def preprocess_data(df: pd.DataFrame):
+
+    return df
