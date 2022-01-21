@@ -3,6 +3,7 @@ from loguru import logger
 import pandas as pd
 
 from assignment3.process_data import *
+from assignment3.data_exploration import data_exploration
 
 def file_names()-> list:
     path = ''
@@ -11,6 +12,7 @@ def file_names()-> list:
         for filename in files:
             file_list.append(filename)
     return file_list
+
 
 
 def load_files(file_list: list) -> pd.DataFrame:
@@ -36,3 +38,4 @@ if __name__ == '__main__':
     """
     logger.info('Read training data')
     df = load_file('dataset/SEM-2012-SharedTask-CD-SCO-training-simple.v2.txt', ['document', 'sentence_number', 'location', 'token', 'value'])
+    data_exploration(df)

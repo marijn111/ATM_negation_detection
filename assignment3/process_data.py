@@ -5,7 +5,8 @@ from nltk.stem.snowball import SnowballStemmer
 
 #TODO: MAKE sentence
 
-def make_sentence():
+def make_sentence(df: pd.Dataframe) -> pd.DataFrame:
+    sentence_numbers =
     return
 
 
