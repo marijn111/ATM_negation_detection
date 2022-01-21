@@ -1,6 +1,7 @@
 import pandas as pd
 import spacy
 from spacy.tokens import Doc
+pd.options.mode.chained_assignment = None  # default='warn'
 
 
 class DataProcessing:
@@ -22,6 +23,7 @@ class DataProcessing:
         documents = self.df['document'].unique()
 
         for document in documents:
+            print(f'Processing document: {document}')
             # Get all sentences in the document
             doc_df = self.df.loc[self.df['document'] == document, :]
             sentences = doc_df['sentence ID'].unique()
