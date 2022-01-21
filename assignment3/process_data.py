@@ -5,17 +5,18 @@ from nltk.stem.snowball import SnowballStemmer
 
 #TODO: MAKE sentence
 
-def make_sentence():
+def make_sentence(df: pd.DataFrame) -> pd.DataFrame:
+    #sentence_numbers =
     return
 
 
-def lowercase_column(df: pd.Dataframe, column:str) -> pd.DataFrame:
+def lowercase_column(df: pd.DataFrame, column:str) -> pd.DataFrame:
     df[column] = df[column].astype(str)
     df['lowered_text']= df[column].str.lower()
     return df
 
 
-def remove_stopwords(df: pd.Dataframe, column:str) -> pd.DataFrame:
+def remove_stopwords(df: pd.DataFrame, column:str) -> pd.DataFrame:
     stop = stopwords.words('english')
     newStopWords = []
     stop = stop.extend(newStopWords)
@@ -24,24 +25,24 @@ def remove_stopwords(df: pd.Dataframe, column:str) -> pd.DataFrame:
     return df
 
 
-def tokenize_sentences(df: pd.Dataframe, column:str) -> pd.DataFrame:
+def tokenize_sentences(df: pd.DataFrame, column:str) -> pd.DataFrame:
     df[column] = df[column].astype(str)
     df['sentence'] = df.apply(lambda row: sent_tokenize(row[column]), axis=1)
     return df
 
 
-def tokenize(df: pd.Dataframe, column:str) -> pd.DataFrame:
+def tokenize(df: pd.DataFrame, column:str) -> pd.DataFrame:
     df[column] = df[column].astype(str)
     df['tokenized'] = df.apply(lambda row: word_tokenize(row[column]), axis=1)
     return df
 
 
-def lemmatizer(df: pd.Dataframe, column:str) -> pd.DataFrame:
+def lemmatizer(df: pd.DataFrame, column:str) -> pd.DataFrame:
     df['lemmatized'] = df.apply(lambda row: WordNetLemmatizer(row[column]), axis=1)
     return df
 
 
-def stem_sentences(df: pd.Dataframe, column:str) -> pd.DataFrame:
+def stem_sentences(df: pd.DataFrame, column:str) -> pd.DataFrame:
     stemmer = SnowballStemmer("english")
     df['stemmed'] = df[column].map(lambda x: ' '.join([stemmer.stem(y) for y in x.split(' ')]))
     return df
