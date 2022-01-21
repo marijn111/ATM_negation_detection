@@ -5,14 +5,29 @@ pd.options.mode.chained_assignment = None  # default='warn'
 
 
 class DataProcessing:
+    """
+    Features:
+
+    POS: part of speech tag
+    LEMMA: lemma (lowercased)
+    TAG: Detailed part of speech tag
+    DEP: syntactic dependency
+    STOP: whether the token is a stopword
+    NER: Named entity tag
+    AFFIX: whether an affixal negation cue is present in the token
+    CONTR: Whether a contracted negation cue is in the token
+    EXPR: Whether the token matches one of the highly probable negation cue expressions
+
+    """
     def __init__(self):
         self.nlp = spacy.load('en_core_web_sm')
         self.contracted_negation_cues = ["'t", "not", "n't"]
         self.affixal_negation_cues = ['de', 'dis', 'il', 'im', 'in', 'ir', 'mis', 'non', 'un', 'anti']
+        self.negation_expressions = ['nor', 'neither', 'without', 'nobody', 'none', 'nothing', 'never', 'not', 'no', 'nowhere', 'non']
         self.df = pd.DataFrame()
 
     def load_data(self, path):
-        df = pd.read_csv(path, sep='\s+', names=['document', 'sentence ID', 'token ID', 'token', 'cue', 'POS', 'LEMMA', 'TAG', 'DEP', 'STOP', 'NER', 'AFFIX', 'CONTR'], header=None)
+        df = pd.read_csv(path, sep='\s+', names=['document', 'sentence ID', 'token ID', 'token', 'cue', 'POS', 'LEMMA', 'TAG', 'DEP', 'STOP', 'NER', 'AFFIX', 'CONTR', 'EXPR'], header=None)
         self.df = df
 
     def save_data(self, path):
@@ -46,6 +61,7 @@ class DataProcessing:
                 self.label_named_entities(doc, sentence_df)
                 self.label_affixal_negation(doc, sentence_df)
                 self.label_contracted_negation(doc, sentence_df)
+                self.label_probable_negation_expression(doc, sentence_df)
 
     def label_linguistic_features(self, doc, sentence_df):
         for token in doc:
@@ -98,6 +114,20 @@ class DataProcessing:
                     break
 
             token_df['AFFIX'] = False
+            self.df.update(token_df)
+
+    def label_probable_negation_expression(self, doc, sentence_df):
+        for token in doc:
+            # Get the df row for this specific token
+            token_df = sentence_df.loc[sentence_df['token'] == token.text, :]
+
+            for expr in self.negation_expressions:
+                if token.text == expr:
+                    token_df['EXPR'] = True
+                    self.df.update(token_df)
+                    break
+
+            token_df['EXPR'] = False
             self.df.update(token_df)
 
 
