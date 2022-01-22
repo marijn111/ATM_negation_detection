@@ -7,7 +7,6 @@ negation_suffix = ['less']
 negation_prefix = ['de', 'dis', 'il', 'im' ,'in', 'ir', 'mis', 'non', 'un', 'anti']
 
 
-
 def chunking():
 
     return
