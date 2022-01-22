@@ -92,6 +92,8 @@ class DataProcessing:
             # Get the df row for this specific token
             token_df = sentence_df.loc[sentence_df['token'] == token.text, :]
 
+            token_df['CONTR'] = False
+
             # Loop over the contracted negation cues and check if the token ends with it, and if so assign true
             for contr_cue in self.contracted_negation_cues:
                 if token.text.endswith(contr_cue):
@@ -99,7 +101,6 @@ class DataProcessing:
                     self.df.update(token_df)
                     break
 
-            token_df['CONTR'] = False
             self.df.update(token_df)
 
     def label_affixal_negation(self, doc, sentence_df):
@@ -107,13 +108,14 @@ class DataProcessing:
             # Get the df row for this specific token
             token_df = sentence_df.loc[sentence_df['token'] == token.text, :]
 
+            token_df['AFFIX'] = False
+
             for affix in self.affixal_negation_cues:
                 if token.text.startswith(affix):
                     token_df['AFFIX'] = True
                     self.df.update(token_df)
                     break
 
-            token_df['AFFIX'] = False
             self.df.update(token_df)
 
     def label_probable_negation_expression(self, doc, sentence_df):
@@ -121,13 +123,14 @@ class DataProcessing:
             # Get the df row for this specific token
             token_df = sentence_df.loc[sentence_df['token'] == token.text, :]
 
+            token_df['EXPR'] = False
+
             for expr in self.negation_expressions:
                 if token.text == expr:
                     token_df['EXPR'] = True
                     self.df.update(token_df)
                     break
 
-            token_df['EXPR'] = False
             self.df.update(token_df)
 
 
