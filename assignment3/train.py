@@ -1,4 +1,7 @@
+import pickle
+
 from joblib import dump, load
+import math
 
 import sklearn_crfsuite
 from sklearn_crfsuite import scorers
@@ -16,6 +19,11 @@ class TrainModel:
         self.y_train = []
         self.X_test = []
         self.y_test = []
+        self.X_train_all = []
+        self.y_train_all = []
+        self.y_pred = []
+        self.dataset_split = 70
+        self.save_directory = 'models'
 
     def load_processed_corpus(self, path):
         df = pd.read_csv(path, sep='\t',
@@ -37,26 +45,26 @@ class TrainModel:
     def word2features(self, df_token):
 
         features = {
-            'token': df_token['token'],
-            'pos': df_token['POS'],
-            'lemma': df_token['LEMMA'],
-            'tag': df_token['TAG'],
-            'dep': df_token['DEP'],
-            'isstop': df_token['STOP'],
-            'ner': df_token['NER'],
-            'isaffix': df_token['AFFIX'],
-            'iscontr': df_token['CONTR'],
-            'isexpr': df_token['EXPR']
+            'token': df_token['token'].values[0],
+            'pos': df_token['POS'].values[0],
+            'lemma': df_token['LEMMA'].values[0],
+            'tag': df_token['TAG'].values[0],
+            'dep': df_token['DEP'].values[0],
+            'isstop': df_token['STOP'].values[0],
+            'ner': df_token['NER'].values[0],
+            'isaffix': df_token['AFFIX'].values[0],
+            'iscontr': df_token['CONTR'].values[0],
+            'isexpr': df_token['EXPR'].values[0]
 
         }
 
         return features
 
     def sent2features(self, sent):
-        return [self.word2features(sent.iloc[i, :]) for i in sent.index]
+        return [self.word2features(sent.loc[sent['token ID'] == token_id, :]) for token_id in sent['token ID'].unique()]
 
     def sent2labels(self, sent):
-        return [sent.iloc[i, sent.columns.get_loc('cue')] for i in sent.index]
+        return [sent.at[i, 'cue'] for i in sent.index]
 
     # def sent2tokens(self, sent):
     #     return [token for token, postag, label in sent]
@@ -65,49 +73,83 @@ class TrainModel:
         documents = self.df['document'].unique()
 
         for document in documents:
+            print(f'[INFO] Currently processing document: {document}')
             doc_df = self.df.loc[self.df['document'] == document, :]
             sentences = doc_df['sentence ID'].unique()
 
             for sentence_id in sentences:
                 sentence_df = doc_df.loc[doc_df['sentence ID'] == sentence_id, :]
-                self.X_train.append(self.sent2features(sentence_df))
-                self.y_train.append(self.sent2labels(sentence_df))
+                self.X_train_all.append(self.sent2features(sentence_df))
+                self.y_train_all.append(self.sent2labels(sentence_df))
 
-        # X_test = [sent2features(s) for s in test_sents]
-        # y_test = [sent2labels(s) for s in test_sents]
+    def split_train_test_data(self):
+        dataset_length = len(self.X_train_all)
+        split = math.floor(dataset_length * (self.dataset_split/100))
+
+        self.X_train = self.X_train_all[:split]
+        self.X_test = self.X_train_all[split:]
+        self.y_train = self.y_train_all[:split]
+        self.y_test = self.y_train_all[split:]
+
+        self.store_data('x_test.pkl', self.X_test)
+        self.store_data('y_test.pkl', self.y_test)
 
     def fit_model(self):
+        print('[INFO] Fitting the model...')
         self.model.fit(self.X_train, self.y_train)
 
     def save_model(self):
-        dump(self.model, './models/crf.joblib')
+        print('[INFO] Saving the model...')
+        dump(self.model, f'./{self.save_directory}/crf.joblib')
 
     def load_model(self):
-        self.model = load('./models/crf.joblib')
+        self.model = load(f'./{self.save_directory}/crf.joblib')
+
+    def predict(self):
+        self.y_pred = self.model.predict(self.X_test)
+        self.store_data('y_pred.pkl', self.y_pred)
 
     def evaluation(self):
+        print('[INFO] Running the evaluation...')
         labels = list(self.model.classes_)
         labels.remove('O')
 
-        y_pred = self.model.predict(self.X_test)
-        print('flat f1_score')
-        print(metrics.flat_f1_score(self.y_test, y_pred,
+        print('[INFO] flat f1_score...')
+        print(metrics.flat_f1_score(self.y_test, self.y_pred,
                               average='weighted', labels=labels))
 
-        print('per-class results')
+        print('\n')
+        print('[INFO] per-class results...')
         sorted_labels = sorted(
             labels,
             key=lambda name: (name[1:], name[0])
         )
         print(metrics.flat_classification_report(
-            self.y_test, y_pred, labels=sorted_labels, digits=3
+            self.y_test, self.y_pred, labels=sorted_labels
         ))
+
+    def store_data(self, filename, data):
+        with open(f'./{self.save_directory}/{filename}', 'wb') as f:
+            pickle.dump(data, f)
+
+    def load_data(self, filename):
+        with open(f'./{self.save_directory}/{filename}', 'rb') as f:
+            data = pickle.load(f)
+        return data
 
 
 def main(input_path):
     model_class = TrainModel()
     model_class.load_processed_corpus(input_path)
-    return True
+    model_class.model_init()
+    model_class.get_train_test_data()
+    model_class.split_train_test_data()
+    model_class.fit_model()
+    model_class.save_model()
+    model_class.predict()
+    model_class.evaluation()
+
+    # model_class.load_model()
 
 
 if __name__ == '__main__':
