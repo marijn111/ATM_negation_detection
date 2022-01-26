@@ -134,14 +134,10 @@ class DataProcessing:
             self.df.update(token_df)
 
 
-def main(input_file, output_file):
+def preprocess_data(input_file, output_file):
     data_processor = DataProcessing()
     data_processor.load_data(input_file)
     data_processor.process_corpus()
     data_processor.save_data(output_file)
 
 
-if __name__ == '__main__':
-    input_path = "./dataset/SEM-2012-SharedTask-CD-SCO-training-simple.v2.txt"
-    output_path = "./dataset/processed_corpus.csv"
-    main(input_path, output_path)
