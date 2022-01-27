@@ -150,8 +150,6 @@ class TrainModel:
     def hyperopt(self):
         crf = sklearn_crfsuite.CRF(
             algorithm='lbfgs',
-            max_iterations=100,
-            all_possible_transitions=True
         )
         params_space = {
             'c1': scipy.stats.expon(scale=0.5),
