@@ -3,8 +3,6 @@ from wordcloud import WordCloud, STOPWORDS
 import pandas as pd
 from loguru import logger
 
-#TODO: Aantal zinnen, aantal token, aantal negations, (word cloud)
-
 
 def count_nans(df: pd.DataFrame, column:str) -> pd.DataFrame:
 
