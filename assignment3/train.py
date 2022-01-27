@@ -1,14 +1,21 @@
 import pickle
 
+import scipy.stats
 from joblib import dump, load
 import math
 
+import matplotlib.pyplot as plt
+
+from sklearn.model_selection import RandomizedSearchCV
 import sklearn_crfsuite
 from sklearn_crfsuite import scorers
 from sklearn_crfsuite import metrics
 from collections import Counter
+from sklearn.metrics import make_scorer
 
 import pandas as pd
+
+plt.style.use('ggplot')
 
 
 class TrainModel:
@@ -94,6 +101,9 @@ class TrainModel:
         self.store_data('x_test.pkl', self.X_test)
         self.store_data('y_test.pkl', self.y_test)
 
+        self.store_data('x_train.pkl', self.X_train)
+        self.store_data('y_train.pkl', self.y_train)
+
     def fit_model(self):
         print('[INFO] Fitting the model...')
         self.model.fit(self.X_train, self.y_train)
@@ -120,12 +130,12 @@ class TrainModel:
 
         print('\n')
         print('[INFO] per-class results...')
-        sorted_labels = sorted(
+        self.sorted_labels = sorted(
             labels,
             key=lambda name: (name[1:], name[0])
         )
         print(metrics.flat_classification_report(
-            self.y_test, self.y_pred, labels=sorted_labels
+            self.y_test, self.y_pred, labels=self.sorted_labels
         ))
 
     def store_data(self, filename, data):
@@ -136,6 +146,102 @@ class TrainModel:
         with open(f'./{self.save_directory}/{filename}', 'rb') as f:
             data = pickle.load(f)
         return data
+
+    def hyperopt(self):
+        crf = sklearn_crfsuite.CRF(
+            algorithm='lbfgs',
+            max_iterations=100,
+            all_possible_transitions=True
+        )
+        params_space = {
+            'c1': scipy.stats.expon(scale=0.5),
+            'c2': scipy.stats.expon(scale=0.05),
+        }
+
+        labels = list(self.model.classes_)
+        labels.remove('O')
+
+        f1_scorer = make_scorer(metrics.flat_f1_score,
+                                average='weighted',
+                                labels=labels)
+
+        rs = RandomizedSearchCV(crf, params_space,
+                                cv=3,
+                                verbose=1,
+                                n_jobs=1,
+                                n_iter=50,
+                                scoring=f1_scorer)
+
+        rs.fit(self.X_train, self.y_train)
+        print(rs.best_params_)
+
+        self.rs = rs
+
+    def check_parameter_space(self):
+        print('best params:', self.rs.best_params_)
+        print('best CV score:', self.rs.best_score_)
+        print('model size: {:0.2f}M'.format(self.rs.best_estimator_.size_ / 1000000))
+
+        _x = [s['c1'] for s in self.rs.cv_results_['params']]
+        _y = [s['c2'] for s in self.rs.cv_results_['params']]
+        _c = [s for s in self.rs.cv_results_['mean_test_score']]
+
+        # _x = [s.parameters['c1'] for s in self.rs.grid_scores_]
+        # _y = [s.parameters['c2'] for s in self.rs.grid_scores_]
+        # _c = [s.mean_validation_score for s in self.rs.grid_scores_]
+
+        fig = plt.figure()
+        fig.set_size_inches(12, 12)
+        ax = plt.gca()
+        ax.set_yscale('log')
+        ax.set_xscale('log')
+        ax.set_xlabel('C1')
+        ax.set_ylabel('C2')
+        ax.set_title("Randomized Hyperparameter Search CV Results (min={:0.3}, max={:0.3})".format(
+            min(_c), max(_c)
+        ))
+
+        ax.scatter(_x, _y, c=_c, s=60, alpha=0.9, edgecolors=[0, 0, 0])
+
+        fig.savefig('./plots/search_space.png')
+
+        print("Dark blue => {:0.4}, dark red => {:0.4}".format(min(_c), max(_c)))
+
+    def check_best_estimator(self):
+        labels = list(self.model.classes_)
+        labels.remove('O')
+        self.sorted_labels = sorted(
+            labels,
+            key=lambda name: (name[1:], name[0])
+        )
+
+        self.best_estimator = self.rs.best_estimator_
+        y_pred = self.best_estimator.predict(self.X_test)
+        print(metrics.flat_classification_report(
+            self.y_test, y_pred, labels=self.sorted_labels, digits=3
+        ))
+
+    def print_transitions(self, trans_features):
+        for (label_from, label_to), weight in trans_features:
+            print("%-6s -> %-7s %0.6f" % (label_from, label_to, weight))
+
+    def check_classifier_learning(self):
+        print("Top likely transitions:")
+        self.print_transitions(Counter(self.best_estimator.transition_features_).most_common(20))
+
+        print("\nTop unlikely transitions:")
+        self.print_transitions(Counter(self.best_estimator.transition_features_).most_common()[-20:])
+
+    def print_state_features(self, state_features):
+        for (attr, label), weight in state_features:
+            print("%0.6f %-8s %s" % (weight, label, attr))
+
+    def check_state_features(self):
+        print("Top positive:")
+        self.print_state_features(Counter(self.best_estimator.state_features_).most_common(30))
+
+        print("\nTop negative:")
+        self.print_state_features(Counter(self.best_estimator.state_features_).most_common()[-30:])
 
 
 def main(input_path):

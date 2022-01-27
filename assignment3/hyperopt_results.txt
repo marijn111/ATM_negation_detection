@@ -1,0 +1,92 @@
+{'c1': 0.08639006104286855, 'c2': 0.016107066621683416}
+best params: {'c1': 0.08639006104286855, 'c2': 0.016107066621683416}
+best CV score: 0.874790592139039
+model size: 0.04M
+Dark blue => 0.819, dark red => 0.8748
+
+              precision    recall  f1-score   support
+
+       B-NEG      0.929     0.912     0.920       272
+       I-NEG      0.000     0.000     0.000         0
+
+   micro avg      0.929     0.912     0.920       272
+   macro avg      0.464     0.456     0.460       272
+weighted avg      0.929     0.912     0.920       272
+
+Top likely transitions:
+I-NEG  -> I-NEG   4.392374
+B-NEG  -> I-NEG   2.621283
+O      -> O       1.539193
+O      -> B-NEG   0.000027
+
+
+Top unlikely transitions:
+O      -> I-NEG   -5.779564
+I-NEG  -> O       -3.681367
+I-NEG  -> B-NEG   -1.233427
+B-NEG  -> B-NEG   -0.477852
+B-NEG  -> O       -0.206103
+
+Top positive:
+8.208185 B-NEG    lemma:never
+6.069474 B-NEG    token:Nothing
+6.056290 B-NEG    token:None
+5.954034 B-NEG    token:carelessness
+5.954034 B-NEG    lemma:carelessness
+5.879676 B-NEG    token:careless
+5.879676 B-NEG    lemma:careless
+5.871448 B-NEG    token:Not
+5.797948 B-NEG    token:motionless
+5.797948 B-NEG    lemma:motionless
+5.350938 B-NEG    lemma:none
+4.898932 B-NEG    lemma:nor
+4.757730 B-NEG    token:Nowhere
+4.757730 B-NEG    lemma:nowhere
+4.730376 B-NEG    token:noiselessly
+4.730376 B-NEG    lemma:noiselessly
+4.730345 B-NEG    token:restlessly
+4.730345 B-NEG    lemma:restlessly
+4.477978 B-NEG    token:purposeless
+4.477978 B-NEG    lemma:purposeless
+4.475434 B-NEG    token:breathlessness
+4.475434 B-NEG    lemma:breathlessness
+4.390913 B-NEG    token:useless
+4.390913 B-NEG    lemma:useless
+4.383863 B-NEG    token:Never
+4.189288 B-NEG    token:Except
+4.064655 B-NEG    token:hopeless
+4.064655 B-NEG    lemma:hopeless
+3.936606 B-NEG    token:No
+3.876007 B-NEG    token:lifeless
+
+Top negative:
+-1.551268 O        dep:dep
+-1.581312 O        token:than
+-1.581312 O        lemma:than
+-1.617230 O        dep:det
+-1.667188 O        token:world
+-1.667188 O        lemma:world
+-1.729957 O        dep:cc
+-1.763458 O        lemma:save
+-1.787368 O        token:save
+-1.938161 O        lemma:no
+-2.056947 O        lemma:not
+-2.073406 O        dep:advmod
+-2.216889 O        lemma:nothing
+-2.308499 O        token:prevent
+-2.308499 O        lemma:prevent
+-2.379231 B-NEG    pos:ADV
+-2.393073 O        token:contrary
+-2.393073 O        lemma:contrary
+-2.402531 O        lemma:refuse
+-2.446794 O        token:means
+-2.503664 O        token:fail
+-2.503664 O        lemma:fail
+-2.656621 O        isexpr:True
+-2.677147 B-NEG    dep:pobj
+-2.716019 O        token:neglected
+-2.716019 O        lemma:neglect
+-2.816881 O        token:refused
+-2.881868 O        token:No
+-2.883662 O        token:n't
+-3.000477 O        lemma:except
