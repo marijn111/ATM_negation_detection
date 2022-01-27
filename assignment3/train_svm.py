@@ -7,6 +7,7 @@ import sklearn_crfsuite
 from sklearn_crfsuite import scorers
 from sklearn_crfsuite import metrics
 from collections import Counter
+from vectorizing_features import vectorize
 
 import pandas as pd
 
@@ -36,6 +37,7 @@ class TrainModelSVM:
         self.df = df
 
     def model_init(self):
+        # TODO: change to SVM
         crf = sklearn_crfsuite.CRF(
             algorithm='lbfgs',
             c1=0.1,
@@ -86,18 +88,29 @@ class TrainModelSVM:
                 self.y_train_all.append(self.sent2labels(sentence_df))
 
     def split_train_test_data(self):
+
+        self.X_train_all = self.df.loc[:, self.df.columns != 'cue']
+        self.y_train_all = self.df.loc[:, self.df.columns == 'cue']
+
         dataset_length = len(self.X_train_all)
         split = math.floor(dataset_length * (self.dataset_split/100))
 
-        self.X_train = self.X_train_all[:split]
-        self.X_test = self.X_train_all[split:]
-        self.y_train = self.y_train_all[:split]
-        self.y_test = self.y_train_all[split:]
+        self.X_train = self.X_train_all.iloc[:split, :]
+        self.X_test = self.X_train_all.iloc[split:, :]
+        self.y_train = self.y_train_all.iloc[:split, :]
+        self.y_test = self.y_train_all.iloc[split:, :]
 
         self.store_data('x_test.pkl', self.X_test)
         self.store_data('y_test.pkl', self.y_test)
 
+    def vectorize_data(self):
+        self.X_train = vectorize(self.X_train)
+        self.X_test = vectorize(self.X_test)
+        self.y_train = vectorize(self.y_train)
+        self.y_test = vectorize(self.y_test)
+
     def fit_model(self):
+        # TODO: Klopt deze syntax
         print('[INFO] Fitting the model...')
         self.model.fit(self.X_train, self.y_train)
 
@@ -142,15 +155,17 @@ class TrainModelSVM:
 
 
 def main(input_path):
-    model_class = TrainModel()
+    model_class = TrainModelSVM()
     model_class.load_processed_corpus(input_path)
     model_class.model_init()
-    model_class.get_train_test_data()
     model_class.split_train_test_data()
+    model_class.vectorize_data()
     model_class.fit_model()
     model_class.save_model()
     model_class.predict()
     model_class.evaluation()
+
+
 
     # model_class.load_model()
 
