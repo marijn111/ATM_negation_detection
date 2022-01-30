@@ -145,13 +145,15 @@ def main(input_path):
     model_class.get_train_test_data()
     model_class.split_train_test_data()
     model_class.fit_model()
-    model_class.save_model()
+    #model_class.save_model()
+    #model_class.load_model()
     model_class.predict()
     model_class.evaluation()
 
-    # model_class.load_model()
+
 
 
 if __name__ == '__main__':
-    processed_corpus_path = "./dataset/processed_corpus.csv"
+    processed_corpus_path = "./dataset/processed_corpus_bio.csv"
+    #processed_corpus_path = "./dataset/processed_corpus.csv"
     main(processed_corpus_path)

@@ -3,13 +3,11 @@ import pickle
 from joblib import dump, load
 import math
 from sklearn.svm import SVC
-from sklearn.pipeline import Pipeline
+from sklearn.pipeline import make_pipeline
 from vectorizing_features import vectorize
 from sklearn.feature_extraction.text import CountVectorizer
 from sklearn.feature_extraction.text import TfidfTransformer
 from sklearn.feature_extraction.text import TfidfVectorizer
-from sklearn.feature_extraction.text import HashingVectorizer
-from sklearn_pandas import DataFrameMapper, gen_features
 from sklearn.feature_extraction import DictVectorizer
 from sklearn.preprocessing import LabelEncoder
 from sklearn.naive_bayes import MultinomialNB
@@ -45,7 +43,6 @@ class TrainModelSVM:
     def model_init(self):
         # TODO: change to SVM
         svm = SVC()
-
         self.model = svm
 
     def word2features(self, df_token):
@@ -63,13 +60,19 @@ class TrainModelSVM:
             'isexpr': df_token['EXPR'].values[0]
 
         }
-        return features
+        # vec = DictVectorizer()
+        # features = vec.fit_transform(features)
+        self.X_train_all.append(features)
+
 
     def sent2features(self, sent):
-        return [self.word2features(sent.loc[sent['token ID'] == token_id, :]) for token_id in sent['token ID'].unique()]
+        for token_id in sent['token ID'].unique():
+            self.word2features(sent.loc[sent['token ID'] == token_id, :])
+
 
     def sent2labels(self, sent):
-        return [sent.at[i, 'cue'] for i in sent.index]
+        for i in sent.index:
+            self.y_train_all.append(sent.at[i, 'cue'])
 
     # def sent2tokens(self, sent):
     #     return [token for token, postag, label in sent]
@@ -84,45 +87,28 @@ class TrainModelSVM:
 
             for sentence_id in sentences:
                 sentence_df = doc_df.loc[doc_df['sentence ID'] == sentence_id, :]
-                self.X_train_all.append(self.sent2features(sentence_df))
-                self.y_train_all.append(self.sent2labels(sentence_df))
+                self.sent2features(sentence_df)
+                self.sent2labels(sentence_df)
 
     def split_train_test_data(self):
-
-        self.X_train_all = self.df.loc[:, self.df.columns != 'cue']
-        self.y_train_all = self.df.loc[:, self.df.columns == 'cue']
-
         dataset_length = len(self.X_train_all)
         split = math.floor(dataset_length * (self.dataset_split/100))
 
-        self.X_train = self.X_train_all.iloc[:split, :]
-        self.X_test = self.X_train_all.iloc[split:, :]
-        self.y_train = self.y_train_all.iloc[:split, :]
-        self.y_test = self.y_train_all.iloc[split:, :]
-
-        self.X_train['sentence ID'] = self.X_train['sentence ID'].astype(str)
-        self.X_train['token ID'] = self.X_train['token ID'].astype(str)
-        self.X_test['sentence ID'] = self.X_test['sentence ID'].astype(str)
-        self.X_test['token ID'] = self.X_test['token ID'].astype(str)
+        self.X_train = self.X_train_all[:split]
+        self.X_test = self.X_train_all[split:]
+        self.y_train = self.y_train_all[:split]
+        self.y_test = self.y_train_all[split:]
 
         self.store_data('x_test.pkl', self.X_test)
         self.store_data('y_test.pkl', self.y_test)
 
     def vectorize_data(self):
-        #vec = DictVectorizer()
-        cat_features = ['document', 'sentence ID', 'token ID', 'token', 'POS', 'LEMMA', 'TAG', 'DEP', 'STOP', 'NER',
-                        'AFFIX', 'CONTR', 'EXPR']
-        gf = gen_features(cat_features, [HashingVectorizer])
-        mapper = DataFrameMapper(gf)
-
-        self.X_train = mapper.fit_transform(self.X_train)
-        self.X_test = mapper.fit_transform(self.X_test)
-        # self.X_train = vec.fit_transform(self.X_train).toarray()
-        # self.X_test = vec.fit_transform(self.X_test).toarray()
-        self.y_train = LabelEncoder().fit_transform(self.y_train['cue'])
-        self.y_test = LabelEncoder().fit_transform(self.y_test['cue'])
-
-
+        #res = [[key for key in test_list[0].keys()], *[list(idx.values()) for idx in test_list]]
+        vec = DictVectorizer()
+        self.X_train = vec.fit_transform(self.X_train).toarray()
+        self.X_test = vec.fit_transform(self.X_test).toarray()
+        self.y_train = LabelEncoder().fit_transform(self.y_train)
+        self.y_test = LabelEncoder().fit_transform(self.y_test)
 
     def fit_model(self):
         # TODO: Klopt deze syntax
@@ -173,13 +159,13 @@ def main(input_path):
     model_class = TrainModelSVM()
     model_class.load_processed_corpus(input_path)
     model_class.model_init()
+    model_class.get_train_test_data()
     model_class.split_train_test_data()
     model_class.vectorize_data()
     model_class.fit_model()
     model_class.save_model()
     model_class.predict()
     model_class.evaluation()
-
 
 
     # model_class.load_model()

@@ -27,10 +27,15 @@ class DataProcessing:
         self.df = pd.DataFrame()
 
     def load_data(self, path):
-        df = pd.read_csv(path, sep='\s+', names=['document', 'sentence ID', 'token ID', 'token', 'cue', 'POS', 'LEMMA', 'TAG', 'DEP', 'STOP', 'NER', 'AFFIX', 'CONTR', 'EXPR'], header=None)
-        self.df = df
+        df = pd.read_csv(path, sep='\s+', names=['document', 'sentence ID', 'token ID', 'token', 'cue', 'cue1', 'POS', 'LEMMA', 'TAG', 'DEP', 'STOP', 'NER', 'AFFIX', 'CONTR', 'EXPR'], header=None)
+        #df = pd.read_csv(path, sep='\s+', names=['document', 'sentence ID', 'token ID', 'token', 'cue'], header=None)
+        df['cue'] = df['cue1'].astype(str)
+        df['token'] = df['token'].astype(str)
+        del df['cue1']
+        self.df = df[:30000]
 
     def save_data(self, path):
+
         self.df.to_csv(path, sep='\t', header=False, index=False, na_rep='0')
 
     def process_corpus(self):
@@ -67,7 +72,6 @@ class DataProcessing:
         for token in doc:
             # Get the df row for this specific token
             token_df = sentence_df.loc[sentence_df['token'] == token.text, :]
-
             # Add linguistic features as columns
             token_df['POS'] = token.pos_
             token_df['LEMMA'] = token.lemma_
@@ -81,7 +85,6 @@ class DataProcessing:
         for ent in doc.ents:
             # Get the df row for this specific token
             token_df = sentence_df.loc[sentence_df['token'] == ent.text, :]
-
             # Apply NER tag to token row
             token_df['NER'] = ent.label_
 
@@ -91,7 +94,6 @@ class DataProcessing:
         for token in doc:
             # Get the df row for this specific token
             token_df = sentence_df.loc[sentence_df['token'] == token.text, :]
-
             token_df['CONTR'] = False
 
             # Loop over the contracted negation cues and check if the token ends with it, and if so assign true
@@ -107,7 +109,6 @@ class DataProcessing:
         for token in doc:
             # Get the df row for this specific token
             token_df = sentence_df.loc[sentence_df['token'] == token.text, :]
-
             token_df['AFFIX'] = False
 
             for affix in self.affixal_negation_cues:
