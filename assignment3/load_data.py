@@ -147,7 +147,7 @@ def main(input_path, output):
 
 if __name__ == '__main__':
     input_file = './dataset/SEM-2012-SharedTask-CD-SCO-test-cardboard.txt'
-    output_file = './dataset/processed_corpus_test_set.csv'
+    output_file = './dataset/processed_corpus_test_set_cardboard.csv'
     main(input_file, output_file)
 
 
