@@ -141,3 +141,13 @@ def preprocess_data(input_file, output_file):
     data_processor.save_data(output_file)
 
 
+def main(input_path, output):
+    preprocess_data(input_path, output)
+
+
+if __name__ == '__main__':
+    input_file = './dataset/SEM-2012-SharedTask-CD-SCO-test-cardboard.txt'
+    output_file = './dataset/processed_corpus_test_set.csv'
+    main(input_file, output_file)
+
+
