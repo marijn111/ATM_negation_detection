@@ -98,7 +98,6 @@ class DataProcessing:
             for contr_cue in self.contracted_negation_cues:
                 if token.text.endswith(contr_cue):
                     token_df['CONTR'] = True
-                    self.df.update(token_df)
                     break
 
             self.df.update(token_df)
@@ -113,7 +112,6 @@ class DataProcessing:
             for affix in self.affixal_negation_cues:
                 if token.text.startswith(affix):
                     token_df['AFFIX'] = True
-                    self.df.update(token_df)
                     break
 
             self.df.update(token_df)
@@ -128,7 +126,6 @@ class DataProcessing:
             for expr in self.negation_expressions:
                 if token.text == expr:
                     token_df['EXPR'] = True
-                    self.df.update(token_df)
                     break
 
             self.df.update(token_df)

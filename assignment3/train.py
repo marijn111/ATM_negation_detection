@@ -30,7 +30,7 @@ class TrainModel:
         self.y_train_all = []
         self.y_pred = []
         self.dataset_split = 70
-        self.save_directory = 'models'
+        self.save_directory = 'test_set_cardboard'
 
     def load_processed_corpus(self, path):
         df = pd.read_csv(path, sep='\t',
@@ -104,20 +104,27 @@ class TrainModel:
         self.store_data('x_train.pkl', self.X_train)
         self.store_data('y_train.pkl', self.y_train)
 
+    def get_test_data(self):
+        self.X_test = self.X_train_all
+        self.y_test = self.y_train_all
+
+        self.store_data('x_test_cardboard.pkl', self.X_test)
+        self.store_data('y_test_cardboard.pkl', self.y_test)
+
     def fit_model(self):
         print('[INFO] Fitting the model...')
         self.model.fit(self.X_train, self.y_train)
 
     def save_model(self):
         print('[INFO] Saving the model...')
-        dump(self.model, f'./{self.save_directory}/crf.joblib')
+        dump(self.model, f'./models/crf.joblib')
 
     def load_model(self):
-        self.model = load(f'./{self.save_directory}/crf.joblib')
+        self.model = load(f'./models/crf.joblib')
 
     def predict(self):
         self.y_pred = self.model.predict(self.X_test)
-        self.store_data('y_pred.pkl', self.y_pred)
+        self.store_data('y_pred_circle.pkl', self.y_pred)
 
     def evaluation(self):
         print('[INFO] Running the evaluation...')
@@ -247,15 +254,15 @@ def main(input_path):
     model_class.load_processed_corpus(input_path)
     model_class.model_init()
     model_class.get_train_test_data()
-    model_class.split_train_test_data()
-    model_class.fit_model()
-    model_class.save_model()
-    model_class.predict()
-    model_class.evaluation()
+    model_class.get_test_data()
+    # model_class.fit_model()
+    # model_class.save_model()
+    # model_class.predict()
+    # model_class.evaluation()
 
     # model_class.load_model()
 
 
 if __name__ == '__main__':
-    processed_corpus_path = "./dataset/processed_corpus.csv"
+    processed_corpus_path = "./dataset/processed_corpus_test_set_cardboard.csv"
     main(processed_corpus_path)
