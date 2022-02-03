@@ -7,6 +7,9 @@ import sklearn_crfsuite
 from sklearn_crfsuite import scorers
 from sklearn_crfsuite import metrics
 from collections import Counter
+import matplotlib.pyplot as plt
+import seaborn as sn
+import matplotlib.pyplot as plt
 
 import pandas as pd
 
@@ -24,6 +27,7 @@ class TrainModel:
         self.y_pred = []
         self.dataset_split = 70
         self.save_directory = 'models'
+        self.df_error = pd.DataFrame()
 
     def load_processed_corpus(self, path):
         df = pd.read_csv(path, sep='\t',
@@ -66,8 +70,8 @@ class TrainModel:
     def sent2labels(self, sent):
         return [sent.at[i, 'cue'] for i in sent.index]
 
-    # def sent2tokens(self, sent):
-    #     return [token for token, postag, label in sent]
+    def sent2tokens(self, sent):
+        return [token for token, postag, label in sent]
 
     def get_train_test_data(self):
         documents = self.df['document'].unique()
@@ -137,6 +141,33 @@ class TrainModel:
             data = pickle.load(f)
         return data
 
+    def get_data(self):
+        predictions = [item for sublist in self.y_pred for item in sublist]
+        len_train = len(self.df) - len(predictions)
+        df = self.df[len_train:]
+        df['predictions'] = predictions
+        prediction_list = []
+        for index, row in df.iterrows():
+            if row['cue'] == row['predictions']:
+                prediction_list.append('True')
+            else:
+                prediction_list.append('False')
+        df['correct_pred'] = prediction_list
+        self.df_error = df
+        df.to_csv('df_predictions.csv')
+
+    def confusion_matrix(self):
+        contingency_matrix = pd.crosstab(self.df_error['predictions'], self.df_error['cue'])
+        plt.clf()
+        ax = sn.heatmap(contingency_matrix, annot=True, cmap='Blues')
+        ax.set_title('Confusion Matrix of CRF model\n');
+        ax.set_xlabel('\nPredicted Values')
+        ax.set_ylabel('Actual Values ');
+
+        ## Ticket labels - List must be in alphabetical order
+        plt.savefig("confusion_matrix.png", bbox_inches='tight', dpi=100)
+        plt.show()
+
 
 def main(input_path):
     model_class = TrainModel()
@@ -145,15 +176,17 @@ def main(input_path):
     model_class.get_train_test_data()
     model_class.split_train_test_data()
     model_class.fit_model()
-    #model_class.save_model()
+    model_class.save_model()
     #model_class.load_model()
     model_class.predict()
     model_class.evaluation()
+    model_class.get_data()
+    model_class.confusion_matrix()
 
 
 
 
 if __name__ == '__main__':
-    processed_corpus_path = "./dataset/processed_corpus_bio.csv"
-    #processed_corpus_path = "./dataset/processed_corpus.csv"
+    #processed_corpus_path = "./dataset/processed_corpus_bio.csv"
+    processed_corpus_path = "./dataset/processed_corpus.csv"
     main(processed_corpus_path)

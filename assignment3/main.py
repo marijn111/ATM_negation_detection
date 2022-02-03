@@ -32,7 +32,7 @@ if __name__ == '__main__':
     #df = load_file('dataset/bioscope.papers.columns.txt', ['document', 'sentence_number', 'location', 'token', 'value','value2'])
     # data_exploration(df)
     #preprocess_data(input_path1, output_path1)
-    preprocess_data(input_path2, output_path2)
+    #preprocess_data(input_path2, output_path2)
     #Read training data
     training_data = load_file('dataset/processed_corpus.csv', ['document', 'sentence ID', 'token ID', 'token', 'cue', 'POS', 'LEMMA', 'TAG', 'DEP', 'STOP', 'NER', 'AFFIX', 'CONTR', 'EXPR'])
 
