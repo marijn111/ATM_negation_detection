@@ -159,7 +159,7 @@ class TrainModel:
     def confusion_matrix(self):
         contingency_matrix = pd.crosstab(self.df_error['predictions'], self.df_error['cue'])
         plt.clf()
-        ax = sn.heatmap(contingency_matrix, annot=True, cmap='Blues')
+        ax = sn.heatmap(contingency_matrix, annot=True, cmap='Blues',  fmt='g')
         ax.set_title('Confusion Matrix of CRF model\n');
         ax.set_xlabel('\nPredicted Values')
         ax.set_ylabel('Actual Values ');
