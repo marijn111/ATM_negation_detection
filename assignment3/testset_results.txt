@@ -1,4 +1,4 @@
-[INFO] Running the circle testset
+[INFO] Running the 'circle' test data
 
 [INFO] Running the evaluation...
 
@@ -22,7 +22,7 @@ weighted avg       0.86      0.90      0.88       139
 
 
 
-[INFO] Running the cardboard example
+[INFO] Running the 'cardboard' test data
 
 [INFO] Running the evaluation...
 
