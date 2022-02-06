@@ -2,9 +2,14 @@ from train import TrainModel
 
 
 class FeatureSelectedModel(TrainModel):
+    """
+        This model inherits from the basic TrainModel, and differs only in the features it trains on. As this is the model
+        after the feature selection,
+        it will only train on the tokens and lemma's (as was found in that experiment). Therefore the word2features function only includes the token and lemma.
+    """
     def __init__(self):
         super().__init__()
-        self.save_directory = 'feature_selected'
+        self.save_directory = 'features_selected_model'
 
     def word2features(self, df_token):
         features = {

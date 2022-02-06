@@ -1,5 +1,9 @@
 from train import TrainModel
 
+"""
+This file loads the model, reads in the train and test data, and calls the hyperopting functions from the model instance.
+"""
+
 model_class = TrainModel()
 model_class.load_model()
 

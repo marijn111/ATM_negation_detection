@@ -1,6 +1,8 @@
 from train import TrainModel
-from sklearn_crfsuite import metrics
 
+"""
+This file runs the test set and produces the evaluation for the predictions made. 
+"""
 
 model_class = TrainModel()
 model_class.load_model()

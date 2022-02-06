@@ -4,6 +4,12 @@ import pandas as pd
 
 import matplotlib.pyplot as plt
 
+"""
+This script loads the model and extracts the state feature coefficients, and sums them by feature. This gives us the features 
+with the highest overall coefficients. This data is then plotted to produce the barchart with feature importance based
+on the coefficients. 
+"""
+
 model_class = TrainModel()
 model_class.load_model()
 

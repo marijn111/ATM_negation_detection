@@ -8,7 +8,6 @@ import matplotlib.pyplot as plt
 
 from sklearn.model_selection import RandomizedSearchCV
 import sklearn_crfsuite
-from sklearn_crfsuite import scorers
 from sklearn_crfsuite import metrics
 from collections import Counter
 from sklearn.metrics import make_scorer
@@ -19,6 +18,10 @@ plt.style.use('ggplot')
 
 
 class TrainModel:
+    """
+    This is the main CRF model, and all helper functions included. Each function has its own abstract usecase so that
+    it remains clear what happens where in the code.
+    """
     def __init__(self):
         self.df = pd.DataFrame()
         self.model = None
@@ -44,7 +47,6 @@ class TrainModel:
             algorithm='lbfgs',
             c1=0.1,
             c2=0.1,
-            # all_possible_transitions=True
         )
 
         self.model = crf
@@ -72,9 +74,6 @@ class TrainModel:
 
     def sent2labels(self, sent):
         return [sent.at[i, 'cue'] for i in sent.index]
-
-    # def sent2tokens(self, sent):
-    #     return [token for token, postag, label in sent]
 
     def get_train_test_data(self):
         documents = self.df['document'].unique()
@@ -190,10 +189,6 @@ class TrainModel:
         _x = [s['c1'] for s in self.rs.cv_results_['params']]
         _y = [s['c2'] for s in self.rs.cv_results_['params']]
         _c = [s for s in self.rs.cv_results_['mean_test_score']]
-
-        # _x = [s.parameters['c1'] for s in self.rs.grid_scores_]
-        # _y = [s.parameters['c2'] for s in self.rs.grid_scores_]
-        # _c = [s.mean_validation_score for s in self.rs.grid_scores_]
 
         fig = plt.figure()
         fig.set_size_inches(12, 12)
