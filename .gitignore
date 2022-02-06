@@ -1,2 +1,5 @@
 .idea*
 venv/
+*.joblib
+*.pkl
+*.pyc

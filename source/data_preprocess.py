@@ -98,7 +98,6 @@ class DataProcessing:
             for contr_cue in self.contracted_negation_cues:
                 if token.text.endswith(contr_cue):
                     token_df['CONTR'] = True
-                    self.df.update(token_df)
                     break
 
             self.df.update(token_df)
@@ -113,7 +112,6 @@ class DataProcessing:
             for affix in self.affixal_negation_cues:
                 if token.text.startswith(affix):
                     token_df['AFFIX'] = True
-                    self.df.update(token_df)
                     break
 
             self.df.update(token_df)
@@ -128,7 +126,6 @@ class DataProcessing:
             for expr in self.negation_expressions:
                 if token.text == expr:
                     token_df['EXPR'] = True
-                    self.df.update(token_df)
                     break
 
             self.df.update(token_df)
@@ -139,5 +136,15 @@ def preprocess_data(input_file, output_file):
     data_processor.load_data(input_file)
     data_processor.process_corpus()
     data_processor.save_data(output_file)
+
+
+def main(input_path, output):
+    preprocess_data(input_path, output)
+
+
+if __name__ == '__main__':
+    input_file = './dataset/SEM-2012-SharedTask-CD-SCO-test-circle.txt'
+    output_file = './dataset/processed_corpus_test_set_circle.csv'
+    main(input_file, output_file)
 
 
