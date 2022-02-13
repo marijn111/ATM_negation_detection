@@ -1,0 +1,526 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<annotations textSource="The-People's-Chemist_20170219T051704.txt">
+    <annotation>
+        <mention id="EHOST_Instance_1" />
+        <annotator id="eHOST_2010">Willem</annotator>
+        <span start="19" end="22" />
+        <spannedText>not</spannedText>
+        <creationDate>Sat Feb 12 20:06:34 CET 2022</creationDate>
+    </annotation>
+    <classMention id="EHOST_Instance_1">
+        <mentionClass id="NegCue">not</mentionClass>
+    </classMention>
+    <annotation>
+        <mention id="EHOST_Instance_2" />
+        <annotator id="eHOST_2010">Willem</annotator>
+        <span start="893" end="900" />
+        <spannedText>without</spannedText>
+        <creationDate>Sat Feb 12 20:07:01 CET 2022</creationDate>
+    </annotation>
+    <classMention id="EHOST_Instance_2">
+        <mentionClass id="NegCue">without</mentionClass>
+    </classMention>
+    <annotation>
+        <mention id="EHOST_Instance_3" />
+        <annotator id="eHOST_2010">Willem</annotator>
+        <span start="1188" end="1200" />
+        <spannedText>anti-vaccine</spannedText>
+        <creationDate>Sat Feb 12 20:07:13 CET 2022</creationDate>
+    </annotation>
+    <classMention id="EHOST_Instance_3">
+        <mentionClass id="NegCue">anti-vaccine</mentionClass>
+    </classMention>
+    <annotation>
+        <mention id="EHOST_Instance_4" />
+        <annotator id="eHOST_2010">Willem</annotator>
+        <span start="1458" end="1463" />
+        <spannedText>isn’t</spannedText>
+        <creationDate>Sat Feb 12 20:07:28 CET 2022</creationDate>
+    </annotation>
+    <classMention id="EHOST_Instance_4">
+        <mentionClass id="NegCue">isn’t</mentionClass>
+    </classMention>
+    <annotation>
+        <mention id="EHOST_Instance_5" />
+        <annotator id="eHOST_2010">Willem</annotator>
+        <span start="1601" end="1608" />
+        <spannedText>nothing</spannedText>
+        <creationDate>Sat Feb 12 20:07:39 CET 2022</creationDate>
+    </annotation>
+    <classMention id="EHOST_Instance_5">
+        <mentionClass id="NegCue">nothing</mentionClass>
+    </classMention>
+    <annotation>
+        <mention id="EHOST_Instance_6" />
+        <annotator id="eHOST_2010">Willem</annotator>
+        <span start="1894" end="1902" />
+        <spannedText>unproven</spannedText>
+        <creationDate>Sat Feb 12 20:07:46 CET 2022</creationDate>
+    </annotation>
+    <classMention id="EHOST_Instance_6">
+        <mentionClass id="NegCue">unproven</mentionClass>
+    </classMention>
+    <annotation>
+        <mention id="EHOST_Instance_7" />
+        <annotator id="eHOST_2010">Willem</annotator>
+        <span start="2682" end="2691" />
+        <spannedText>uncovered</spannedText>
+        <creationDate>Sat Feb 12 20:08:13 CET 2022</creationDate>
+    </annotation>
+    <classMention id="EHOST_Instance_7">
+        <mentionClass id="NegCue">uncovered</mentionClass>
+    </classMention>
+    <annotation>
+        <mention id="EHOST_Instance_8" />
+        <annotator id="eHOST_2010">Willem</annotator>
+        <span start="2778" end="2781" />
+        <spannedText>not</spannedText>
+        <creationDate>Sat Feb 12 20:08:17 CET 2022</creationDate>
+    </annotation>
+    <classMention id="EHOST_Instance_8">
+        <mentionClass id="NegCue">not</mentionClass>
+    </classMention>
+    <annotation>
+        <mention id="EHOST_Instance_9" />
+        <annotator id="eHOST_2010">Willem</annotator>
+        <span start="2791" end="2794" />
+        <spannedText>not</spannedText>
+        <creationDate>Sat Feb 12 20:08:18 CET 2022</creationDate>
+    </annotation>
+    <classMention id="EHOST_Instance_9">
+        <mentionClass id="NegCue">not</mentionClass>
+    </classMention>
+    <annotation>
+        <mention id="EHOST_Instance_10" />
+        <annotator id="eHOST_2010">Willem</annotator>
+        <span start="3253" end="3256" />
+        <spannedText>not</spannedText>
+        <creationDate>Sat Feb 12 20:08:39 CET 2022</creationDate>
+    </annotation>
+    <classMention id="EHOST_Instance_10">
+        <mentionClass id="NegCue">not</mentionClass>
+    </classMention>
+    <annotation>
+        <mention id="EHOST_Instance_11" />
+        <annotator id="eHOST_2010">Willem</annotator>
+        <span start="3590" end="3597" />
+        <spannedText>doesn’t</spannedText>
+        <creationDate>Sat Feb 12 20:08:56 CET 2022</creationDate>
+    </annotation>
+    <classMention id="EHOST_Instance_11">
+        <mentionClass id="NegCue">doesn’t</mentionClass>
+    </classMention>
+    <annotation>
+        <mention id="EHOST_Instance_12" />
+        <annotator id="eHOST_2010">Willem</annotator>
+        <span start="3840" end="3843" />
+        <spannedText>not</spannedText>
+        <creationDate>Sat Feb 12 20:09:03 CET 2022</creationDate>
+    </annotation>
+    <classMention id="EHOST_Instance_12">
+        <mentionClass id="NegCue">not</mentionClass>
+    </classMention>
+    <annotation>
+        <mention id="EHOST_Instance_13" />
+        <annotator id="eHOST_2010">Willem</annotator>
+        <span start="3966" end="3969" />
+        <spannedText>Not</spannedText>
+        <creationDate>Sat Feb 12 20:09:13 CET 2022</creationDate>
+    </annotation>
+    <classMention id="EHOST_Instance_13">
+        <mentionClass id="NegCue">Not</mentionClass>
+    </classMention>
+    <annotation>
+        <mention id="EHOST_Instance_14" />
+        <annotator id="eHOST_2010">Willem</annotator>
+        <span start="4036" end="4047" />
+        <spannedText>ineffective</spannedText>
+        <creationDate>Sat Feb 12 20:09:15 CET 2022</creationDate>
+    </annotation>
+    <classMention id="EHOST_Instance_14">
+        <mentionClass id="NegCue">ineffective</mentionClass>
+    </classMention>
+    <annotation>
+        <mention id="EHOST_Instance_15" />
+        <annotator id="eHOST_2010">Willem</annotator>
+        <span start="5772" end="5778" />
+        <spannedText>wasn’t</spannedText>
+        <creationDate>Sat Feb 12 20:10:16 CET 2022</creationDate>
+    </annotation>
+    <classMention id="EHOST_Instance_15">
+        <mentionClass id="NegCue">wasn’t</mentionClass>
+    </classMention>
+    <annotation>
+        <mention id="EHOST_Instance_16" />
+        <annotator id="eHOST_2010">Willem</annotator>
+        <span start="6156" end="6159" />
+        <spannedText>not</spannedText>
+        <creationDate>Sat Feb 12 20:10:27 CET 2022</creationDate>
+    </annotation>
+    <classMention id="EHOST_Instance_16">
+        <mentionClass id="NegCue">not</mentionClass>
+    </classMention>
+    <annotation>
+        <mention id="EHOST_Instance_17" />
+        <annotator id="eHOST_2010">Willem</annotator>
+        <span start="6423" end="6425" />
+        <spannedText>no</spannedText>
+        <creationDate>Sat Feb 12 20:10:36 CET 2022</creationDate>
+    </annotation>
+    <classMention id="EHOST_Instance_17">
+        <mentionClass id="NegCue">no</mentionClass>
+    </classMention>
+    <annotation>
+        <mention id="EHOST_Instance_18" />
+        <annotator id="eHOST_2010">Willem</annotator>
+        <span start="7496" end="7508" />
+        <spannedText>unvaccinated</spannedText>
+        <creationDate>Sat Feb 12 20:11:07 CET 2022</creationDate>
+    </annotation>
+    <classMention id="EHOST_Instance_18">
+        <mentionClass id="NegCue">unvaccinated</mentionClass>
+    </classMention>
+    <annotation>
+        <mention id="EHOST_Instance_19" />
+        <annotator id="eHOST_2010">Willem</annotator>
+        <span start="7688" end="7691" />
+        <spannedText>not</spannedText>
+        <creationDate>Sat Feb 12 20:11:12 CET 2022</creationDate>
+    </annotation>
+    <classMention id="EHOST_Instance_19">
+        <mentionClass id="NegCue">not</mentionClass>
+    </classMention>
+    <annotation>
+        <mention id="EHOST_Instance_20" />
+        <annotator id="eHOST_2010">Willem</annotator>
+        <span start="7957" end="7966" />
+        <spannedText>worthless</spannedText>
+        <creationDate>Sat Feb 12 20:11:19 CET 2022</creationDate>
+    </annotation>
+    <classMention id="EHOST_Instance_20">
+        <mentionClass id="NegCue">worthless</mentionClass>
+    </classMention>
+    <annotation>
+        <mention id="EHOST_Instance_21" />
+        <annotator id="eHOST_2010">Willem</annotator>
+        <span start="8007" end="8009" />
+        <spannedText>no</spannedText>
+        <creationDate>Sat Feb 12 20:11:23 CET 2022</creationDate>
+    </annotation>
+    <classMention id="EHOST_Instance_21">
+        <mentionClass id="NegCue">no</mentionClass>
+    </classMention>
+    <annotation>
+        <mention id="EHOST_Instance_22" />
+        <annotator id="eHOST_2010">Willem</annotator>
+        <span start="8522" end="8533" />
+        <spannedText>ineffective</spannedText>
+        <creationDate>Sat Feb 12 20:11:39 CET 2022</creationDate>
+    </annotation>
+    <classMention id="EHOST_Instance_22">
+        <mentionClass id="NegCue">ineffective</mentionClass>
+    </classMention>
+    <annotation>
+        <mention id="EHOST_Instance_23" />
+        <annotator id="eHOST_2010">Willem</annotator>
+        <span start="8706" end="8711" />
+        <spannedText>don’t</spannedText>
+        <creationDate>Sat Feb 12 20:11:45 CET 2022</creationDate>
+    </annotation>
+    <classMention id="EHOST_Instance_23">
+        <mentionClass id="NegCue">don’t</mentionClass>
+    </classMention>
+    <annotation>
+        <mention id="EHOST_Instance_24" />
+        <annotator id="eHOST_2010">Willem</annotator>
+        <span start="8807" end="8812" />
+        <spannedText>don’t</spannedText>
+        <creationDate>Sat Feb 12 20:11:50 CET 2022</creationDate>
+    </annotation>
+    <classMention id="EHOST_Instance_24">
+        <mentionClass id="NegCue">don’t</mentionClass>
+    </classMention>
+    <annotation>
+        <mention id="EHOST_Instance_25" />
+        <annotator id="eHOST_2010">Willem</annotator>
+        <span start="9782" end="9793" />
+        <spannedText>dehydration</spannedText>
+        <creationDate>Sat Feb 12 20:12:22 CET 2022</creationDate>
+    </annotation>
+    <classMention id="EHOST_Instance_25">
+        <mentionClass id="NegCue">dehydration</mentionClass>
+    </classMention>
+    <annotation>
+        <mention id="EHOST_Instance_26" />
+        <annotator id="eHOST_2010">Willem</annotator>
+        <span start="9919" end="9930" />
+        <span start="10000" end="10006" />
+        <spannedText>antibiotics ... aren’t</spannedText>
+        <creationDate>Sat Feb 12 20:12:28 CET 2022</creationDate>
+    </annotation>
+    <classMention id="EHOST_Instance_26">
+        <mentionClass id="NegCue">antibiotics ... aren’t</mentionClass>
+    </classMention>
+    <annotation>
+        <mention id="EHOST_Instance_27" />
+        <annotator id="eHOST_2010">Willem</annotator>
+        <span start="10025" end="10035" />
+        <spannedText>uninfected</spannedText>
+        <creationDate>Sat Feb 12 20:12:36 CET 2022</creationDate>
+    </annotation>
+    <classMention id="EHOST_Instance_27">
+        <mentionClass id="NegCue">uninfected</mentionClass>
+    </classMention>
+    <annotation>
+        <mention id="EHOST_Instance_28" />
+        <annotator id="eHOST_2010">Willem</annotator>
+        <span start="10234" end="10239" />
+        <spannedText>won’t</spannedText>
+        <creationDate>Sat Feb 12 20:12:44 CET 2022</creationDate>
+    </annotation>
+    <classMention id="EHOST_Instance_28">
+        <mentionClass id="NegCue">won’t</mentionClass>
+    </classMention>
+    <annotation>
+        <mention id="EHOST_Instance_29" />
+        <annotator id="eHOST_2010">Willem</annotator>
+        <span start="10450" end="10456" />
+        <spannedText>didn’t</spannedText>
+        <creationDate>Sat Feb 12 20:12:53 CET 2022</creationDate>
+    </annotation>
+    <classMention id="EHOST_Instance_29">
+        <mentionClass id="NegCue">didn’t</mentionClass>
+    </classMention>
+    <annotation>
+        <mention id="EHOST_Instance_30" />
+        <annotator id="eHOST_2010">Willem</annotator>
+        <span start="10717" end="10722" />
+        <spannedText>never</spannedText>
+        <creationDate>Sat Feb 12 20:13:04 CET 2022</creationDate>
+    </annotation>
+    <classMention id="EHOST_Instance_30">
+        <mentionClass id="NegCue">never</mentionClass>
+    </classMention>
+    <annotation>
+        <mention id="EHOST_Instance_31" />
+        <annotator id="eHOST_2010">Willem</annotator>
+        <span start="11388" end="11399" />
+        <spannedText>dysfunction</spannedText>
+        <creationDate>Sat Feb 12 20:13:29 CET 2022</creationDate>
+    </annotation>
+    <classMention id="EHOST_Instance_31">
+        <mentionClass id="NegCue">dysfunction</mentionClass>
+    </classMention>
+    <annotation>
+        <mention id="EHOST_Instance_32" />
+        <annotator id="eHOST_2010">Willem</annotator>
+        <span start="11795" end="11804" />
+        <spannedText>Invisible</spannedText>
+        <creationDate>Sat Feb 12 20:13:46 CET 2022</creationDate>
+    </annotation>
+    <classMention id="EHOST_Instance_32">
+        <mentionClass id="NegCue">Invisible</mentionClass>
+    </classMention>
+    <annotation>
+        <mention id="EHOST_Instance_33" />
+        <annotator id="eHOST_2010">Willem</annotator>
+        <span start="12851" end="12858" />
+        <spannedText>without</spannedText>
+        <creationDate>Sat Feb 12 20:14:27 CET 2022</creationDate>
+    </annotation>
+    <classMention id="EHOST_Instance_33">
+        <mentionClass id="NegCue">without</mentionClass>
+    </classMention>
+    <annotation>
+        <mention id="EHOST_Instance_34" />
+        <annotator id="eHOST_2010">Willem</annotator>
+        <span start="13122" end="13125" />
+        <spannedText>not</spannedText>
+        <creationDate>Sat Feb 12 20:14:37 CET 2022</creationDate>
+    </annotation>
+    <classMention id="EHOST_Instance_34">
+        <mentionClass id="NegCue">not</mentionClass>
+    </classMention>
+    <annotation>
+        <mention id="EHOST_Instance_35" />
+        <annotator id="eHOST_2010">Willem</annotator>
+        <span start="13578" end="13585" />
+        <spannedText>doesn’t</spannedText>
+        <creationDate>Sat Feb 12 20:14:57 CET 2022</creationDate>
+    </annotation>
+    <classMention id="EHOST_Instance_35">
+        <mentionClass id="NegCue">doesn’t</mentionClass>
+    </classMention>
+    <annotation>
+        <mention id="EHOST_Instance_36" />
+        <annotator id="eHOST_2010">Willem</annotator>
+        <span start="13935" end="13940" />
+        <spannedText>never</spannedText>
+        <creationDate>Sat Feb 12 20:15:19 CET 2022</creationDate>
+    </annotation>
+    <classMention id="EHOST_Instance_36">
+        <mentionClass id="NegCue">never</mentionClass>
+    </classMention>
+    <annotation>
+        <mention id="EHOST_Instance_37" />
+        <annotator id="eHOST_2010">Willem</annotator>
+        <span start="14234" end="14236" />
+        <spannedText>no</spannedText>
+        <creationDate>Sat Feb 12 20:15:28 CET 2022</creationDate>
+    </annotation>
+    <classMention id="EHOST_Instance_37">
+        <mentionClass id="NegCue">no</mentionClass>
+    </classMention>
+    <annotation>
+        <mention id="EHOST_Instance_38" />
+        <annotator id="eHOST_2010">Willem</annotator>
+        <span start="14167" end="14169" />
+        <spannedText>no</spannedText>
+        <creationDate>Sat Feb 12 20:15:30 CET 2022</creationDate>
+    </annotation>
+    <classMention id="EHOST_Instance_38">
+        <mentionClass id="NegCue">no</mentionClass>
+    </classMention>
+    <annotation>
+        <mention id="EHOST_Instance_39" />
+        <annotator id="eHOST_2010">Willem</annotator>
+        <span start="14474" end="14477" />
+        <spannedText>not</spannedText>
+        <creationDate>Sat Feb 12 20:15:37 CET 2022</creationDate>
+    </annotation>
+    <classMention id="EHOST_Instance_39">
+        <mentionClass id="NegCue">not</mentionClass>
+    </classMention>
+    <annotation>
+        <mention id="EHOST_Instance_40" />
+        <annotator id="eHOST_2010">Willem</annotator>
+        <span start="14549" end="14552" />
+        <spannedText>nor</spannedText>
+        <creationDate>Sat Feb 12 20:15:39 CET 2022</creationDate>
+    </annotation>
+    <classMention id="EHOST_Instance_40">
+        <mentionClass id="NegCue">nor</mentionClass>
+    </classMention>
+    <annotation>
+        <mention id="EHOST_Instance_41" />
+        <annotator id="eHOST_2010">Willem</annotator>
+        <span start="14587" end="14594" />
+        <spannedText>doesn’t</spannedText>
+        <creationDate>Sat Feb 12 20:15:42 CET 2022</creationDate>
+    </annotation>
+    <classMention id="EHOST_Instance_41">
+        <mentionClass id="NegCue">doesn’t</mentionClass>
+    </classMention>
+    <annotation>
+        <mention id="EHOST_Instance_42" />
+        <annotator id="eHOST_2010">Willem</annotator>
+        <span start="14727" end="14732" />
+        <spannedText>don’t</spannedText>
+        <creationDate>Sat Feb 12 20:15:48 CET 2022</creationDate>
+    </annotation>
+    <classMention id="EHOST_Instance_42">
+        <mentionClass id="NegCue">don’t</mentionClass>
+    </classMention>
+    <annotation>
+        <mention id="EHOST_Instance_43" />
+        <annotator id="eHOST_2010">Willem</annotator>
+        <span start="14857" end="14860" />
+        <spannedText>not</spannedText>
+        <creationDate>Sat Feb 12 20:15:53 CET 2022</creationDate>
+    </annotation>
+    <classMention id="EHOST_Instance_43">
+        <mentionClass id="NegCue">not</mentionClass>
+    </classMention>
+    <annotation>
+        <mention id="EHOST_Instance_44" />
+        <annotator id="eHOST_2010">Willem</annotator>
+        <span start="14942" end="14951" />
+        <spannedText>shouldn’t</spannedText>
+        <creationDate>Sat Feb 12 20:15:57 CET 2022</creationDate>
+    </annotation>
+    <classMention id="EHOST_Instance_44">
+        <mentionClass id="NegCue">shouldn’t</mentionClass>
+    </classMention>
+    <annotation>
+        <mention id="EHOST_Instance_45" />
+        <annotator id="eHOST_2010">Willem</annotator>
+        <span start="14973" end="14987" />
+        <spannedText>non-vaccinated</spannedText>
+        <creationDate>Sat Feb 12 20:16:00 CET 2022</creationDate>
+    </annotation>
+    <classMention id="EHOST_Instance_45">
+        <mentionClass id="NegCue">non-vaccinated</mentionClass>
+    </classMention>
+    <annotation>
+        <mention id="EHOST_Instance_46" />
+        <annotator id="eHOST_2010">Willem</annotator>
+        <span start="15190" end="15193" />
+        <spannedText>not</spannedText>
+        <creationDate>Sat Feb 12 20:16:08 CET 2022</creationDate>
+    </annotation>
+    <classMention id="EHOST_Instance_46">
+        <mentionClass id="NegCue">not</mentionClass>
+    </classMention>
+    <annotation>
+        <mention id="EHOST_Instance_47" />
+        <annotator id="eHOST_2010">Willem</annotator>
+        <span start="15402" end="15405" />
+        <spannedText>not</spannedText>
+        <creationDate>Sat Feb 12 20:16:13 CET 2022</creationDate>
+    </annotation>
+    <classMention id="EHOST_Instance_47">
+        <mentionClass id="NegCue">not</mentionClass>
+    </classMention>
+    <annotation>
+        <mention id="EHOST_Instance_48" />
+        <annotator id="eHOST_2010">Willem</annotator>
+        <span start="15780" end="15783" />
+        <spannedText>not</spannedText>
+        <creationDate>Sat Feb 12 20:16:25 CET 2022</creationDate>
+    </annotation>
+    <classMention id="EHOST_Instance_48">
+        <mentionClass id="NegCue">not</mentionClass>
+    </classMention>
+    <annotation>
+        <mention id="EHOST_Instance_49" />
+        <annotator id="eHOST_2010">Willem</annotator>
+        <span start="16231" end="16234" />
+        <spannedText>not</spannedText>
+        <creationDate>Sat Feb 12 20:16:47 CET 2022</creationDate>
+    </annotation>
+    <classMention id="EHOST_Instance_49">
+        <mentionClass id="NegCue">not</mentionClass>
+    </classMention>
+    <annotation>
+        <mention id="EHOST_Instance_50" />
+        <annotator id="eHOST_2010">Willem</annotator>
+        <span start="16258" end="16265" />
+        <spannedText>without</spannedText>
+        <creationDate>Sat Feb 12 20:16:51 CET 2022</creationDate>
+    </annotation>
+    <classMention id="EHOST_Instance_50">
+        <mentionClass id="NegCue">without</mentionClass>
+    </classMention>
+    <annotation>
+        <mention id="EHOST_Instance_51" />
+        <annotator id="eHOST_2010">Willem</annotator>
+        <span start="16346" end="16357" />
+        <spannedText>discontinue</spannedText>
+        <creationDate>Sat Feb 12 20:16:54 CET 2022</creationDate>
+    </annotation>
+    <classMention id="EHOST_Instance_51">
+        <mentionClass id="NegCue">discontinue</mentionClass>
+    </classMention>
+    <eHOST_Adjudication_Status version="1.0">
+        <Adjudication_Selected_Annotators version="1.0" />
+        <Adjudication_Selected_Classes version="1.0" />
+        <Adjudication_Others>
+            <CHECK_OVERLAPPED_SPANS>false</CHECK_OVERLAPPED_SPANS>
+            <CHECK_ATTRIBUTES>false</CHECK_ATTRIBUTES>
+            <CHECK_RELATIONSHIP>false</CHECK_RELATIONSHIP>
+            <CHECK_CLASS>false</CHECK_CLASS>
+            <CHECK_COMMENT>false</CHECK_COMMENT>
+        </Adjudication_Others>
+    </eHOST_Adjudication_Status>
+</annotations>
+

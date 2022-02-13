@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<annotations textSource="ThinkProgress_20160723T110700.txt">
+    <annotation>
+        <mention id="EHOST_Instance_52" />
+        <annotator id="eHOST_2010">Willem</annotator>
+        <span start="964" end="967" />
+        <spannedText>not</spannedText>
+        <creationDate>Sat Feb 12 19:28:22 CET 2022</creationDate>
+    </annotation>
+    <classMention id="EHOST_Instance_52">
+        <mentionClass id="NegCue">not</mentionClass>
+    </classMention>
+    <annotation>
+        <mention id="EHOST_Instance_53" />
+        <annotator id="eHOST_2010">Willem</annotator>
+        <span start="1417" end="1420" />
+        <spannedText>not</spannedText>
+        <creationDate>Sat Feb 12 19:28:35 CET 2022</creationDate>
+    </annotation>
+    <classMention id="EHOST_Instance_53">
+        <mentionClass id="NegCue">not</mentionClass>
+    </classMention>
+    <annotation>
+        <mention id="EHOST_Instance_54" />
+        <annotator id="eHOST_2010">Willem</annotator>
+        <span start="1767" end="1783" />
+        <spannedText>anti-vaccination</spannedText>
+        <creationDate>Sat Feb 12 19:28:43 CET 2022</creationDate>
+    </annotation>
+    <classMention id="EHOST_Instance_54">
+        <mentionClass id="NegCue">anti-vaccination</mentionClass>
+    </classMention>
+    <annotation>
+        <mention id="EHOST_Instance_55" />
+        <annotator id="eHOST_2010">Willem</annotator>
+        <span start="2303" end="2306" />
+        <spannedText>not</spannedText>
+        <creationDate>Sat Feb 12 19:28:56 CET 2022</creationDate>
+    </annotation>
+    <classMention id="EHOST_Instance_55">
+        <mentionClass id="NegCue">not</mentionClass>
+    </classMention>
+    <annotation>
+        <mention id="EHOST_Instance_56" />
+        <annotator id="eHOST_2010">Willem</annotator>
+        <span start="3157" end="3169" />
+        <spannedText>unvaccinated</spannedText>
+        <creationDate>Sat Feb 12 19:29:20 CET 2022</creationDate>
+    </annotation>
+    <classMention id="EHOST_Instance_56">
+        <mentionClass id="NegCue">unvaccinated</mentionClass>
+    </classMention>
+    <annotation>
+        <mention id="EHOST_Instance_57" />
+        <annotator id="eHOST_2010">Willem</annotator>
+        <span start="3633" end="3645" />
+        <spannedText>anti-vaccine</spannedText>
+        <creationDate>Sat Feb 12 19:29:36 CET 2022</creationDate>
+    </annotation>
+    <classMention id="EHOST_Instance_57">
+        <mentionClass id="NegCue">anti-vaccine</mentionClass>
+    </classMention>
+    <annotation>
+        <mention id="EHOST_Instance_58" />
+        <annotator id="eHOST_2010">Willem</annotator>
+        <span start="3810" end="3819" />
+        <spannedText>misguided</spannedText>
+        <creationDate>Sat Feb 12 19:29:44 CET 2022</creationDate>
+    </annotation>
+    <classMention id="EHOST_Instance_58">
+        <mentionClass id="NegCue">misguided</mentionClass>
+    </classMention>
+    <annotation>
+        <mention id="EHOST_Instance_59" />
+        <annotator id="eHOST_2010">Willem</annotator>
+        <span start="3919" end="3930" />
+        <spannedText>unprotected</spannedText>
+        <creationDate>Sat Feb 12 19:29:48 CET 2022</creationDate>
+    </annotation>
+    <classMention id="EHOST_Instance_59">
+        <mentionClass id="NegCue">unprotected</mentionClass>
+    </classMention>
+    <eHOST_Adjudication_Status version="1.0">
+        <Adjudication_Selected_Annotators version="1.0" />
+        <Adjudication_Selected_Classes version="1.0" />
+        <Adjudication_Others>
+            <CHECK_OVERLAPPED_SPANS>false</CHECK_OVERLAPPED_SPANS>
+            <CHECK_ATTRIBUTES>false</CHECK_ATTRIBUTES>
+            <CHECK_RELATIONSHIP>false</CHECK_RELATIONSHIP>
+            <CHECK_CLASS>false</CHECK_CLASS>
+            <CHECK_COMMENT>false</CHECK_COMMENT>
+        </Adjudication_Others>
+    </eHOST_Adjudication_Status>
+</annotations>
+
